@@ -54,7 +54,6 @@
   const fiveStoresStrip = document.querySelector('.five-stores-strip');
   const menuCategoriesContainer = document.getElementById('menuCategoriesContainer');
 
-  const originalPhotoStrip = document.getElementById('originalPhotoStrip');
   const reviewsGrid = document.getElementById('reviewsGrid');
   const aboutAttributesBoard = document.getElementById('aboutAttributesBoard');
   const footerLocationsGrid = document.getElementById('footerLocationsGrid');
@@ -431,39 +430,6 @@
     });
   }
 
-  // Render Original Photos Filmstrip
-  function renderOriginalReel() {
-    if (!originalPhotoStrip) return;
-    originalPhotoStrip.innerHTML = (DATA.originalGallery || [])
-      .map(
-        (item) => `
-        <article class="reel-card" data-lightbox-src="${escapeHtml(item.src)}" data-lightbox-cap="${escapeHtml(item.label)}">
-          <img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.label)}" width="175" height="104" loading="lazy" />
-          <div class="reel-card-caption">${escapeHtml(item.label)}</div>
-        </article>`
-      )
-      .join('');
-
-    originalPhotoStrip.addEventListener('click', (e) => {
-      const card = e.target.closest('[data-lightbox-src]');
-      if (!card) return;
-      openLightbox(card.getAttribute('data-lightbox-src'), card.getAttribute('data-lightbox-cap'));
-    });
-
-    const prevBtn = document.getElementById('reelPrevBtn');
-    const nextBtn = document.getElementById('reelNextBtn');
-    if (prevBtn) {
-      prevBtn.addEventListener('click', () => {
-        originalPhotoStrip.scrollBy({ left: -360, behavior: 'smooth' });
-      });
-    }
-    if (nextBtn) {
-      nextBtn.addEventListener('click', () => {
-        originalPhotoStrip.scrollBy({ left: 360, behavior: 'smooth' });
-      });
-    }
-  }
-
   // Render Google Maps Reviews & About Attributes
   function renderReviewsAndAbout() {
     const g = DATA.googleReviews || {};
@@ -549,7 +515,6 @@
 
   // Initialize from hash or default to Orlando
   function init() {
-    renderOriginalReel();
     renderReviewsAndAbout();
     renderFooterLocations();
 
