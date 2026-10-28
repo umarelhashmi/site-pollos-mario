@@ -1,0 +1,628 @@
+{
+  "open_browser_tabs_discovered": {
+    "checked_in_background_without_focus_or_mouse": true,
+    "chrome_main_instance_pid_38378": [
+      {
+        "title": "Pollos Mario - Google Maps",
+        "url": "https://www.google.com/maps/place/Pollos+Mario/@28.4365352,-81.4050051,127m/data=!3m1!1e3!4m6!3m5!1s0x88e77d1bd62d32f7:0xfcbcbcf0eeb07743!8m2!3d28.4367274!4d-81.4048423!16s%2Fg%2F1trxl2xd!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "title": "Hempstead, New York - Google Maps (Pollos Mario Steak House & Seafood)",
+        "url": "https://www.google.com/maps/place/Pollos+Mario+Steak+House+%26+Seafood/@40.7083073,-73.6273918,18a,15y,313.93h,127.99t/data=!3m7!1e1!3m5!1sD4n_-kIYhZ5NdERNcBt3BQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-37.98753859887255%26panoid%3DD4n_-kIYhZ5NdERNcBt3BQ%26yaw%3D313.9306661511779!7i16384!8i8192!4m6!3m5!1s0x89c27d1f28b58c31:0x25cc62a28256c8e4!8m2!3d40.7083632!4d-73.6276691!16s%2Fg%2F1tgtgf1w?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "title": "88 County Rte 7 - Google Maps (Pollos Mario Brentwood Corp.)",
+        "url": "https://www.google.com/maps/place/Pollos+Mario+Brentwood+Corp./@40.7800861,-73.2608972,32a,75y,223.49h,80.15t/data=!3m7!1e1!3m5!1sBkHacbkJlICLo0zjf02liA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.854967243753421%26panoid%3DBkHacbkJlICLo0zjf02liA%26yaw%3D223.49176111951365!7i16384!8i8192!4m7!3m6!1s0x89e831ee486b2faf:0xbf9c62d3f5b80404!8m2!3d40.779805!4d-73.2610138!10e5!16s%2Fg%2F1tjy2jmg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      {
+        "title": "Pollos Mario - Orlando - Best Latin American restaurant in Orlando, FL (ChowNow)",
+        "url": "https://order.chownow.com/order/29353/locations/43390"
+      },
+      {
+        "title": "Menu | Pollos Mario",
+        "url": "https://www.pollosmario.com/orlandomenu"
+      }
+    ],
+    "chrome_headless_port_9298": [
+      {
+        "title": "Ginther's Swirls Ice Cream · Twistee Treat of Ocoee & Lake Buena Vista | Est. 1994",
+        "url": "https://ginthersswirls.aviaorlando.com/#ginthers"
+      },
+      {
+        "title": "Nona’s Urban Pizza | Lake Nona Landing · Orlando, FL",
+        "url": "https://nonaspizza.aviaorlando.com/"
+      }
+    ],
+    "safari": [
+      {
+        "title": "Start Page",
+        "url": "favorites://"
+      }
+    ],
+    "linktree_tabs_open": false
+  },
+  "place_overview": {
+    "name": "Pollos Mario",
+    "alternate_name": "Pollos a la Brasa Mario",
+    "primary_category": "Latin American restaurant",
+    "secondary_categories": [
+      "Colombian restaurant",
+      "Nuevo Latino restaurant",
+      "Chicken restaurant",
+      "Steak house",
+      "Seafood restaurant"
+    ],
+    "editorial_tagline": "Cheery Latin American restaurant",
+    "editorial_summary": "A fake tree anchors the cheery dining space of this restaurant specializing in Latin American fare.",
+    "address": "8850 S Orange Blossom Trl, Orlando, FL 32809",
+    "plus_code": "CHPW+M3 Orlando, Florida",
+    "phone": "(407) 251-1111",
+    "phone_e164": "+14072511111",
+    "website": "https://www.pollosmario.com",
+    "orlando_page": "https://www.pollosmario.com/orlando",
+    "orlando_menu_page": "https://www.pollosmario.com/orlandomenu",
+    "online_ordering_chownow": "https://ordering.chownow.com/order/29353/locations/43390",
+    "price_range": "$20–30 per person ($$)",
+    "coordinates": {
+      "latitude": 28.4367274,
+      "longitude": -81.4048423
+    },
+    "google_ids": {
+      "place_id": "ChIJ9zIt1ht954gRQ3ew7vC8vPw",
+      "cid_hex": "0x88e77d1bd62d32f7:0xfcbcbcf0eeb07743",
+      "knowledge_graph_id": "/g/1trxl2xd"
+    },
+    "rating": {
+      "overall": 4.5,
+      "total_reviews": 7161,
+      "total_photos": 1805,
+      "star_distribution": {
+        "5_stars": 5684,
+        "4_stars": 643,
+        "3_stars": 298,
+        "2_stars": 157,
+        "1_star": 379
+      },
+      "featured_review_quotes_on_overview": [
+        "Great food, great service, music little loud but I strongly recommend this place",
+        "They have a variety of food - seafood, steak, pork, chicken.",
+        "We ordered a couple of appetizers, cocktails, and main dishes."
+      ],
+      "review_topics": [
+        { "topic": "colombian food", "mentions": 167 },
+        { "topic": "staff friendliness", "mentions": 72 },
+        { "topic": "bandeja paisa", "mentions": 57 },
+        { "topic": "cazuela de mariscos", "mentions": 19 },
+        { "topic": "consomé", "mentions": 17 },
+        { "topic": "rotisserie chicken", "mentions": 8 },
+        { "topic": "skirt steak", "mentions": 8 },
+        { "topic": "arroz con pollo", "mentions": 6 },
+        { "topic": "seafood rice", "mentions": 6 },
+        { "topic": "chicharron", "mentions": 6 }
+      ]
+    },
+    "hours_of_operation": {
+      "Monday": "11:00 AM – 10:00 PM",
+      "Tuesday": "11:00 AM – 10:00 PM",
+      "Wednesday": "11:00 AM – 10:00 PM",
+      "Thursday": "11:00 AM – 10:00 PM",
+      "Friday": "11:00 AM – 11:00 PM",
+      "Saturday": "11:00 AM – 11:00 PM",
+      "Sunday": "11:00 AM – 10:00 PM",
+      "summary": "Sun–Thu 11:00 AM – 10:00 PM; Fri–Sat 11:00 AM – 11:00 PM"
+    }
+  },
+  "about_tab_details": {
+    "service_options": [
+      "Outdoor seating",
+      "Curbside pickup",
+      "Delivery",
+      "Takeout",
+      "Dine-in"
+    ],
+    "highlights": [
+      "Fast service",
+      "Great cocktails",
+      "Sports"
+    ],
+    "popular_for": [
+      "Lunch",
+      "Dinner",
+      "Solo dining"
+    ],
+    "accessibility": [
+      "Wheelchair accessible entrance",
+      "Wheelchair accessible parking lot",
+      "Wheelchair accessible restroom",
+      "Wheelchair accessible seating"
+    ],
+    "offerings": [
+      "Alcohol",
+      "Beer",
+      "Cocktails",
+      "Coffee",
+      "Comfort food",
+      "Happy hour drinks",
+      "Hard liquor",
+      "Healthy options",
+      "Kids' menu",
+      "Late-night food",
+      "Quick bite",
+      "Small plates",
+      "Wine"
+    ],
+    "dining_options": [
+      "Brunch",
+      "Lunch",
+      "Dinner",
+      "Catering",
+      "Dessert",
+      "Seating",
+      "Table service"
+    ],
+    "amenities": [
+      "Bar onsite",
+      "Restroom",
+      "Wi-Fi"
+    ],
+    "atmosphere": [
+      "Casual",
+      "Cozy",
+      "Trendy"
+    ],
+    "crowd": [
+      "Family-friendly",
+      "Groups",
+      "Tourists"
+    ],
+    "planning": [
+      "Accepts reservations"
+    ],
+    "payments": [
+      "Credit cards",
+      "Debit cards",
+      "NFC mobile payments"
+    ],
+    "children": [
+      "Good for kids",
+      "High chairs",
+      "Kids' menu"
+    ],
+    "parking": [
+      "Free parking lot",
+      "Free street parking",
+      "Plenty of parking"
+    ]
+  },
+  "customer_reviews": [
+    {
+      "author": "Pilar Vargas",
+      "author_badge": "Local Guide · 34 reviews · 59 photos",
+      "rating": 4,
+      "date": "3 months ago",
+      "source": "Google Maps",
+      "price_per_person": "$20–30",
+      "sub_ratings": { "Food": 4, "Service": 4, "Atmosphere": 5 },
+      "dishes_praised": ["Bandeja Paisa", "Picada Mario", "Ajiaco", "Arepa con Queso", "Mango Juice"],
+      "text": "We just came to this restaurant last weekend and had lunch. The food was really good, we ordered bandeja paisa, picada Mario, ajiaco, arepa con queso and mango juice. The meats were very delicious but the soup was just ok… but the arepa was super super good 🤤🤤🤤\nYou have to check your bill because I was been charged for and extra plate ($32) that we never ordered.\nThis restaurant was recently renovated and looks very nice now.",
+      "photo_saved": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/01_bandeja_tipica_pilar_vargas.jpg"
+    },
+    {
+      "author": "Venessa Lebron",
+      "author_badge": "Local Guide · 21 reviews · 25 photos",
+      "rating": 5,
+      "date": "5 months ago",
+      "source": "Google Maps",
+      "sub_ratings": { "Food": 5, "Service": 5, "Atmosphere": 5 },
+      "dishes_praised": ["Seafood Rice (Arroz Marinero / Arroz con Mariscos)"],
+      "text": "Came here with my husband for lunch and ordered the seafood rice dish! Highly recommend. Taste, quality and price point 10/10. Great service as well! Will definitely be coming back.",
+      "photo_saved": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/02_arroz_marinero_seafood_rice_venessa_lebron.jpg"
+    },
+    {
+      "author": "Mei Mei",
+      "author_badge": "5 reviews · 13 photos",
+      "rating": 5,
+      "date": "5 months ago",
+      "source": "Google Maps",
+      "meal_type": "Dinner",
+      "price_per_person": "$20–30",
+      "sub_ratings": { "Food": 5, "Service": 5, "Atmosphere": 5 },
+      "dishes_praised": ["Bandeja Típica", "Churrasco / Grilled Steak on Sizzling Skillet", "French Fries & White Rice"],
+      "text": "Food was superr good!! One of my favorite places to eat when im in florida , would 100% reccomend. The food is always delicious and doesnt take long , resturant is usually not full and seating is quick! Also the servers are the nicest, always paying attention to anything we may need! 10/10",
+      "photos_saved": [
+        "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/03_bandeja_tipica_and_churrasco_skillet_mei_mei.jpg",
+        "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/04_churrasco_steak_skillet_and_bandeja_mei_mei.jpg"
+      ]
+    },
+    {
+      "author": "Leslye Herrera",
+      "author_badge": "2 reviews · 2 photos",
+      "rating": 5,
+      "date": "4 months ago",
+      "source": "Google Maps",
+      "sub_ratings": { "Food": 5, "Service": 5, "Atmosphere": 5 },
+      "dishes_praised": ["Bandeja Típica", "Classic Lime Mojito", "Passion Fruit (Maracuyá) Mojito"],
+      "staff_praised": ["Julieth"],
+      "text": "Me and my friend made a pit stop for some authentic Colombian food and the waiter Julieth was amazing, she was super patient and Charismatic. Food and drinks were phenomenal 10/10",
+      "photos_saved": [
+        "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/05_mojitos_lime_and_passion_fruit_leslye_herrera.jpg",
+        "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/06_two_bandeja_tipica_platters_and_mojito_leslye_herrera.jpg"
+      ]
+    },
+    {
+      "author": "Edward Mort",
+      "author_badge": "1 review · 1 photo",
+      "rating": 5,
+      "date": "7 months ago",
+      "source": "Google Maps",
+      "meal_type": "Dinner",
+      "price_per_person": "$40–50",
+      "sub_ratings": { "Food": 5, "Service": 5, "Atmosphere": 5 },
+      "dishes_praised": ["Arroz con Mariscos with Lobster Tail, Shrimp & Mussels"],
+      "text": "This was our first time and food was served hot, fresh and flavorful. Employees are all nice and did a great service. Will definitely recommend this place. Forgot to take photos of the other food we ordered.",
+      "photo_saved": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/07_arroz_con_mariscos_lobster_and_shrimp_edward_mort.jpg"
+    },
+    {
+      "author": "Mariann Lisa Lopez",
+      "rating": 5,
+      "date": "9 months ago",
+      "source": "Google Maps (via RestaurantGuru)",
+      "meal_type": "Dinner",
+      "sub_ratings": { "Food": 5, "Service": 5, "Atmosphere": 5 },
+      "dishes_praised": ["Pollo a la Brasa (Rotisserie Chicken)", "Sides", "House Sauces"],
+      "text": "Pollos Mario is hands-down one of the best places around for fresh, flavorful food. The chicken is always perfectly seasoned, juicy, and cooked just right. You can tell everything is made with care — from the sides to the sauces, everything tastes authentic and consistently good. The portions are generous, the prices are fair, and the staff is always friendly, welcoming, and efficient. Orders come out quickly, and the place is kept clean and organized."
+    },
+    {
+      "author": "Carlos",
+      "rating": 5,
+      "date": "1 year ago",
+      "source": "Google / RestaurantGuru",
+      "dishes_praised": ["Carne Asada", "Palitos de Queso", "Arroz", "Frijoles", "Plátano Maduro"],
+      "staff_praised": ["Alejandro"],
+      "text": "Delicioso y variado menu. Pedimos carne asada con palitos de queso, arroz, frijol, platano maduro y unos frijoles exquisitos. El servicio de lo mejor, muy amables y mucha actitud.. Nos atendió Alejandro, muy amable y dispuesto."
+    },
+    {
+      "author": "Darryl (darryl17)",
+      "rating": 5,
+      "date": "April 21, 2025",
+      "source": "Google / Sirved",
+      "dishes_praised": ["Seafood", "Bandeja Montañera", "Cocktails / Bar Drinks"],
+      "text": "Forget what you heard about the reviews. This place is amazing. 5 stars if you want the best Seafood and Colombian bandeja montañera. The Brazilian server is fantastic, and the staff is super friendly. The bar is beautiful and the music is fire. I'm a DJ, and they play all Latin music. I would recommend this place for Colombian and Hispanic food. I went there once again, and the food and service are excellent."
+    },
+    {
+      "author": "Chase (chase47-1)",
+      "rating": 5,
+      "date": "April 5, 2025",
+      "source": "Google / Sirved",
+      "dishes_praised": ["French Fries (Papas Fritas)", "Jugos Naturales (Natural Fruit Juices)"],
+      "text": "I give it 5 stars because it is very yummy and I love the French fries they are crunchy and crispy and I just love the natural juices I just love it everything is perfect nothing wrong or bad! I give it a 5 for sure!"
+    },
+    {
+      "author": "Crystel (zulauf-crystel)",
+      "rating": 5,
+      "date": "April 9, 2025",
+      "source": "Google / Sirved",
+      "dishes_praised": ["Drinks & Cocktails", "Colombian Entrees"],
+      "text": "The food is amazing, and the service is great. Good place for drinks and food."
+    },
+    {
+      "author": "Raphaelle Bernier",
+      "rating": 4,
+      "date": "April 13, 2025",
+      "source": "Google / Sirved",
+      "dishes_praised": ["Pollo a la Brasa (Colombian Flavored Rotisserie Chicken)", "Chicharrón", "Salad"],
+      "text": "Not bad for the price! This is authentic Colombian flavoured chicken! However, chicken was a little dry, the chicharrón needed salt and the salad had no dressing! The staff attention is great and you get served by beautiful Latina women that are very professional!"
+    },
+    {
+      "author": "Rolando Mosciski",
+      "rating": 3,
+      "date": "April 17, 2025",
+      "source": "Google / Sirved",
+      "dishes_praised": ["Seafood & Rice Platter"],
+      "text": "We have dined here multiple of times. Only had 1 experience in which our plates (food) was bland and as for the plate containing rice and seafood, it's a big plate, 95% rice, 5% seafood. But besides that one time, all good. A bit overpriced."
+    },
+    {
+      "author": "Jaime Maggio",
+      "rating": 5,
+      "date": "April 20, 2023",
+      "source": "Google Maps",
+      "staff_praised": ["Cristina"],
+      "text": "Cristina was our waitress, she was so nice with us and very helpful. You have to have people like them. I recommend this place so much. I give him 5 stars. Very good place and personal. Love it."
+    },
+    {
+      "author": "Mattie",
+      "rating": 5,
+      "date": "March 29, 2023",
+      "source": "Google Maps",
+      "dishes_praised": ["Carne Asada", "Bar Drinks"],
+      "text": "The food is delicious and the environment is comfortable, they also have a bar area as well as clean courtesy staff and definitely come back. La carne Asada was delicious."
+    },
+    {
+      "author": "Shanny",
+      "rating": 5,
+      "date": "April 9, 2023",
+      "source": "Google Maps",
+      "dishes_praised": ["Batidos / Classic Fruit Shake"],
+      "text": "Loves this place always friendly, And efficient. And you just have to love this classic shake."
+    },
+    {
+      "author": "Oscar Falla",
+      "rating": 5,
+      "date": "March 7, 2024",
+      "source": "Google Maps",
+      "staff_praised": ["Francisco"],
+      "text": "Francisco was incredible; his recommendation was absolutely the best."
+    },
+    {
+      "author": "Aba Hen",
+      "rating": 5,
+      "date": "December 18, 2023",
+      "source": "Google Maps",
+      "staff_praised": ["Francisco"],
+      "text": "Francisco the Best, thank you for your service and menu suggestions."
+    },
+    {
+      "author": "Carlos Ramirez",
+      "rating": 5,
+      "date": "December 2, 2023",
+      "source": "Google Maps",
+      "text": "The food was delicious, and the waitresses were very friendly and lovely."
+    },
+    {
+      "author": "Diana Aroca",
+      "rating": 5,
+      "date": "November 16, 2023",
+      "source": "Google Maps",
+      "staff_praised": ["Eve"],
+      "text": "Eve is very friendly and welcoming. The service is excellent, and the food is delicious!"
+    },
+    {
+      "author": "Heitor / F. Camacho",
+      "rating": 4,
+      "date": "May 1, 2023",
+      "source": "Google Maps",
+      "dishes_praised": ["Flan (Complimentary Dessert)", "Grilled Specialties"],
+      "staff_praised": ["Saray"],
+      "text": "I have been eating at this establishment since I was a child growing up in Florida. The food quality has improved for the same dishes I eat although I wish there was a little more spice. Overall I thoroughly enjoyed my meal today. The sanitary strategies are good, and surfaces in the dining room are sanitized at a high frequency. The staff were friendly and the hospitality was above and beyond. I was very pleased with the complementary flan that the manager provided us. Special shout out to Saray."
+    },
+    {
+      "author": "Antonia",
+      "rating": 5,
+      "date": "March 18, 2023",
+      "source": "Google Maps",
+      "text": "Great food. Great staff. Love this place."
+    },
+    {
+      "author": "Google Maps Featured Reviewer 1",
+      "rating": 5,
+      "date": "Featured on Overview",
+      "source": "Google Maps Overview",
+      "text": "Great food, great service, music little loud but I strongly recommend this place"
+    },
+    {
+      "author": "Google Maps Featured Reviewer 2",
+      "rating": 5,
+      "date": "Featured on Overview",
+      "source": "Google Maps Overview",
+      "dishes_praised": ["Seafood", "Steak", "Pork", "Rotisserie Chicken"],
+      "text": "They have a variety of food - seafood, steak, pork, chicken."
+    },
+    {
+      "author": "Google Maps Featured Reviewer 3",
+      "rating": 5,
+      "date": "Featured on Overview",
+      "source": "Google Maps Overview",
+      "dishes_praised": ["Appetizers", "Cocktails", "Main Dishes"],
+      "text": "We ordered a couple of appetizers, cocktails, and main dishes."
+    }
+  ],
+  "customer_photos_downloaded": [
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/01_bandeja_tipica_pilar_vargas.jpg",
+      "menu_item_identified": "Bandeja Típica (Colombian Country Platter)",
+      "description": "Crispy pork belly (chicharrón), grilled carne asada steak, Colombian chorizo, white rice topped with fried egg, red pinto beans (frijoles) in square bowl, sweet plantains (maduros), fresh avocado slice, lime wedge, and green ají sauce.",
+      "reviewer": "Pilar Vargas",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdW3G_brsoFFI_Vzyuv21GFrdTSfZ4DsJdXFhLGiEDgYH5JMXAA9HNtbLEr-9YYcbbC5vWHge853OhBRH5p6F95mDMZRW2uE6WiE28MU3xs3vligTd5DEan-aZJ43AzZOkw7dBAr7icfRNy=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/02_arroz_marinero_seafood_rice_venessa_lebron.jpg",
+      "menu_item_identified": "Arroz Marinero / Arroz con Mariscos (Seafood Rice with Lobster Tail, Shrimp & Mussels)",
+      "description": "Yellow seasoned rice loaded with broiled lobster tail, jumbo shrimp, black mussels, green peas, and carrots, garnished with an edible purple orchid, served with French fries and fresh house salad.",
+      "reviewer": "Venessa Lebron",
+      "resolution": "1292x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHuke1CW5bOC47-qy-E6aTNjJxuX2tgBaygC1gRkrxuW5dvfH0lwB8oR4nYVmgJvkTcLxXMjVmZ9Ab0-c4sP-XXd98_TuKbRy62YqRsrpP6dmWip8i2prAxrF89m_icT3nW1pso4j-Nyc=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/03_bandeja_tipica_and_churrasco_skillet_mei_mei.jpg",
+      "menu_item_identified": "Bandeja Típica & Churrasco (Grilled Skirt Steak on Cast-Iron Skillet)",
+      "description": "Full table spread with Bandeja Típica in the foreground (crispy chicharrón, grilled steak, chorizo, fried egg over white rice, red beans, yellow corn arepa, maduros, avocado) and sizzling cast-iron steak skillet with French fries and rice in the background.",
+      "reviewer": "Mei Mei",
+      "resolution": "1026x1417",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyPEp3ogR5-44C6noUwNLmAv2fmZzPjc9PzaeMM6M3SSF2SBS0rLc8xiPHRgxC3e6fUd0igusCahySGCX_3mKcE44ko1UJAfozoRQv2bf-CQ1grFmZmyFe0Tg3JA8umQ1kF21ItzsT3xU=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/04_churrasco_steak_skillet_and_bandeja_mei_mei.jpg",
+      "menu_item_identified": "Churrasco / New York Steak on Sizzling Cast-Iron Platter",
+      "description": "Char-grilled steak served on a sizzling cast-iron skillet over a wooden board, paired with French fries, steamed white rice, house green ají salsa, and a Bandeja Típica across the table.",
+      "reviewer": "Mei Mei",
+      "resolution": "1600x1044",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLW16dAjwGgHGeYpMG2Vmrp6Wa3gfR3hs3qPG1aqSbe7oh0Qs1fVfkOjKjCGg-7EwpQylWGUUKdMGybXO4aAcIgTxWT5AusyFo09KMKWCpO4HNSZ8B384BG5w13htO68WttO1dwiYq-H4=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/05_mojitos_lime_and_passion_fruit_leslye_herrera.jpg",
+      "menu_item_identified": "Classic Lime Mojito & Maracuyá (Passion Fruit) Mojito",
+      "description": "Two tall hurricane glasses filled with fresh mint leaves, lime wedges, rum, and passion fruit / lime mix in the renovated Pollos Mario dining room.",
+      "reviewer": "Leslye Herrera",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcuXZPQho33jl_fAf3E5tYe1Tlq-_sNjrsIMbn8ngrAqJdPzePhnWRvWObb6GxBaf5pXzS9EHRMAoNXGlQPP_NRVYdo1uFww500IqrmUn1LqPQSi6V4bukqSLF68ZgjyFJaQwGgEwpn4t-k=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/06_two_bandeja_tipica_platters_and_mojito_leslye_herrera.jpg",
+      "menu_item_identified": "Two Bandeja Típica Platters & Fresh Mint Mojito",
+      "description": "Overhead view of two Bandeja Típica platters (crispy pork belly chicharrón, grilled steak, chorizo, sunny-side-up egg on white rice, red beans, yellow corn arepa, sweet plantains, avocado) alongside a fresh lime mojito.",
+      "reviewer": "Leslye Herrera",
+      "resolution": "1600x1200",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLerSkLBRwZ63m0nu2y0WuTbNiQ645bHp7rStvuO-sSjWkD1wcfk00asHgF97h-v-TxmBbZVu-64oc7ueWmq1JbHEYl1Nn1tUkY__26ehUPF2MCheqWcdUpaFfZtMLn7hYwDi0ZcVoAgobIp=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/07_arroz_con_mariscos_lobster_and_shrimp_edward_mort.jpg",
+      "menu_item_identified": "Arroz con Mariscos / Langosta y Camarones (Lobster Tail & Shrimp Rice)",
+      "description": "Close-up overhead shot of yellow seafood rice topped with a whole split lobster tail, jumbo shrimp, mussels, calamari, green peas, fresh cilantro, and a purple orchid.",
+      "reviewer": "Edward Mort",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcyXE0qOpmbIb1rInkwmNKTZyHLX99YIgA0rSmZwXLxJS9DUz8QPjj12-3eRHxjjOBT5UBt1nekQ54Z6YfrTu84zTB4SnYW4QOaWIWQIgN7XMLjMY9qvxeHJpu50_55Y9fGzbpDu_79ke8=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/08_cazuela_mariscos_crab_legs_and_shrimp.jpg",
+      "menu_item_identified": "Mariscos / Cazuela con Patas de Cangrejo (Snow Crab Legs, Shrimp & Mussels in Criolla Sauce)",
+      "description": "Snow crab legs, shrimp, mussels, and diced potatoes/peppers simmered in golden criolla seafood broth, served with white rice and fresh house salad.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "900x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9rHmxY0MQtrCfaiW7REv5f_4JOHKmu_imqiWm9AvqznRN_rzk7OJxSfdL8NMnnZ3rf_lfPR-ldGw_BXEl4Ns9JaepTFJLP2waI5M1ryjulpyngY5iQgMZ1eRpMOOkrDORKLVq_sBM1ILq=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/09_chocolate_swirl_coffee_martini_cocktail.jpg",
+      "menu_item_identified": "Coctel Especial / Chocolate-Swirl Coffee Liqueur Martini",
+      "description": "Creamy cocktail in a chocolate-swirled martini glass with a spiced cinnamon-sugar rim and red maraschino cherry.",
+      "reviewer": "Pollos Mario (Owner / Bar Menu)",
+      "resolution": "1600x1067",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLe9BHLaYTE3ntm7VFRTf4umio6L8YeeY-statmmWeLY8XP6d6CYTRdp_2noZ_3g5W1Jjwziojk5Z_DNc3R7LtYyn3lLtFD1-lU2HoVkRD2Viy_H0XpAb6IGxZuu9sIoHNWaALZd=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/10_bandeja_tipica_overhead_closeup.jpg",
+      "menu_item_identified": "Bandeja Típica (Overhead Close-Up)",
+      "description": "High-detail overhead shot of the Bandeja Típica showing the crispy chicharrón strip, grilled carne asada, Colombian chorizo, fried egg over white rice, red beans in square bowl, yellow corn arepa, sweet plantains, and fresh avocado.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qx_8FUXmZ-vgJZr6J79lujzx9ayS-vDzygyB0dhw6T_bWHCmFI4193LzX4rLBIT5dl6fpUhwcw7tlvWsGAzLC5QYIJcRVwxmgaJAgBrQEWvdW8VYKEfuo1yXMRGqI3BMqtcv4xkZ9GJG91=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/11_frijoles_colombianos_and_white_rice.jpg",
+      "menu_item_identified": "Frijoles Colombianos & Arroz Blanco (Colombian Red Beans & Steamed White Rice)",
+      "description": "Close-up of steamed white rice and a bowl of traditional Colombian red beans, with French fries and a grilled steak platter in the background.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "900x1600",
+      "source_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RdLMH8uhoDKNHkwltdB0c11RdC9DbBqU-96a5gr1Wh8HCGQ_8pC_E1KTnNJTvPNa5zv5IgmaTC3b4WOBSbPeleIiYEhIM3Cls8OqARd6vQcdHXHFQwb_SxEKu1Zdjpk-_cS2KC3OeWBPgP=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/12_mar_y_tierra_surf_and_turf_churrasco_and_lobster_shrimp.jpg",
+      "menu_item_identified": "Mar y Tierra (Surf & Turf: Grilled Churrasco Skirt Steak + Lobster Tail & Garlic Shrimp)",
+      "description": "Char-grilled skirt steak paired with a metal boat of broiled lobster tail and jumbo garlic shrimp garnished with a purple orchid, served with French fries, white rice, and iced tea/soda with lime.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S-3nCeUI4ucRYBO93E8cmtP5z0EBkh-XOu3MMnLIFkcQUrZUHi2jZVI6krhyj1mAAJfZnjoyBCirM7NeozQXbG7KzU1jSzXhcKjJ5Djhw_aikjuIgDE1AYKscemDjVwKbEJd5t050mtsc=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/13_interior_signature_tree_with_macaws_closeup.jpg",
+      "menu_item_identified": "Interior Ambiance — Signature Artificial Tree with Tropical Macaws & String Lights",
+      "description": "Close-up of the signature indoor tree canopy decorated with red, blue-and-gold, and white macaws/parrots and warm fairy lights.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLdIB0HVnL7MW5C4EOhHNElv-5T2hTljmgXK-yT9VhSsq_Pp9FHCIroCYxmQxx6e5BdUmbIGs3ClTDgHfyyN4XnqtgVPJ4VYWM56aI2SX6L4es6a-SqRpeOcRI59TaPaOdQ_o2FXvalQE7GJ=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/14_interior_renovated_dining_room_and_centerpiece_tree.jpg",
+      "menu_item_identified": "Interior Ambiance — Newly Renovated Orlando Dining Room & Centerpiece Tree",
+      "description": "Full view of the renovated dining room anchored by the illuminated centerpiece tree with tropical birds, wood tables, woven basket pendant lamps, blue tufted booths, and a colorful tropical mural.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/grass-cs/AABkmLcU5m4jjm1MQESJVWOwsGLXCHzODwMrIXlCHx75jpQXQTNuAibyRX0G6f0CkJ6j-UvRxn_blVj7MapQSluQhxUjNUSw6_ZKeygfYooaXzyZ3Gaw1dQXoPt11M27yoasWU3RrOJ00a1b__Ep=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/15_interior_blue_booths_and_spanish_tile_dividers.jpg",
+      "menu_item_identified": "Interior Ambiance — Blue Tufted Booths & Patterned Spanish Tile Partitions",
+      "description": "Renovated booth seating area featuring royal-blue upholstered booths, black-and-white decorative tile dividers, red acoustic ceiling baffles, and greenery-draped basket lights.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "1200x1600",
+      "source_url": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QuxluqssovoZdcuMa36wOSeq919JKObPUCaPhXTOQi3cO8Zs9i6190QmgQ4Vl_HjCaGzVw6UwXBNgFqwphCf1p85I2RRQgp9cu7qjO6IRKsJuqQq3NxWzYQx9s7NwLWJkeeCiR4aJ_dKw=s1600"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/16_sancocho_de_pollo_and_jugos_naturales.jpg",
+      "menu_item_identified": "Sancocho de Pollo / Consomé & Jugos Naturales (Mango & Guanábana en Leche)",
+      "description": "Two bowls of traditional Colombian chicken soup (Sancocho / Consomé with potato, yuca, and cilantro) served with lime wedges, green ají, fresh mango juice, and a creamy guanábana/milk shake.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "275x275"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/17_bandeja_tipica_and_club_colombia_beer.jpg",
+      "menu_item_identified": "Bandeja Típica & Club Colombia Beer",
+      "description": "Bandeja Típica platter paired with an ice-cold bottle of imported Club Colombia Dorada beer and a chilled goblet.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "240x321"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/18_pollo_a_la_brasa_rotisserie_chicken_and_consome.jpg",
+      "menu_item_identified": "Pollo a la Brasa (Colombian Rotisserie Chicken) with Consomé, Rice, Arepa & Salad",
+      "description": "Golden rotisserie chicken pieces served alongside a bowl of chicken consomé soup, molded white rice, yellow corn arepa, house salad, and Coca-Cola.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "240x321"
+    },
+    {
+      "file": "/Volumes/CIA-System/WEBSITE-CLIENTS/PollosMario/research/customer_photos/19_empanadas_colombianas_platter.jpg",
+      "menu_item_identified": "Empanadas Colombianas (4 Golden Corn Empanadas)",
+      "description": "Four crispy golden Colombian corn-masa empanadas served on a white oval platter.",
+      "reviewer": "Google Maps Visitor",
+      "resolution": "240x321"
+    }
+  ],
+  "social_and_ordering_links_by_location": {
+    "linktree_status": "No official Linktree (linktr.ee) account exists for Pollos Mario Orlando or NY locations (the only Pollos Mario on Linktree is an unrelated 'Pollos Mario San Jerónimo' in Colombia). Pollos Mario uses its main website pollosmario.com and location-specific Instagram/Facebook pages.",
+    "corporate_main_website": "https://www.pollosmario.com/",
+    "orlando_fl": {
+      "name": "Pollos Mario Orlando",
+      "address": "8850 S Orange Blossom Trl, Orlando, FL 32809",
+      "phone": "(407) 251-1111",
+      "website": "https://www.pollosmario.com/orlando",
+      "menu_url": "https://www.pollosmario.com/orlandomenu",
+      "instagram": "https://www.instagram.com/pollosmariofl/",
+      "instagram_handle": "@pollosmariofl",
+      "facebook": "https://www.facebook.com/p/Pollos-Mario-Orlando-FL-100064319405626/",
+      "facebook_alternate": "https://www.facebook.com/p/Pollos-a-la-Brasa-Mario-100069230446712",
+      "chownow_direct_ordering": "https://ordering.chownow.com/order/29353/locations/43390",
+      "google_maps": "https://www.google.com/maps/place/Pollos+Mario/@28.4365352,-81.4050051,127m/data=!3m1!1e3!4m8!3m7!1s0x88e77d1bd62d32f7:0xfcbcbcf0eeb07743!8m2!3d28.4367274!4d-81.4048423!9m1!1b1!16s%2Fg%2F1trxl2xd!5m1!1e4"
+    },
+    "jackson_heights_roosevelt_ny": {
+      "name": "Pollos a la Brasa Mario (Original 81st & Roosevelt Location)",
+      "address": "81-01 Roosevelt Ave, Jackson Heights, NY 11372",
+      "phone": "(718) 205-7777 / (718) 639-5555",
+      "website": "https://www.pollosmario.com/81",
+      "menu_url": "https://www.pollosmario.com/81menu",
+      "instagram_37th_ave_branch": "https://www.instagram.com/pollosmario83/",
+      "facebook": "https://www.facebook.com/PollosMario37/",
+      "ubereats": "https://www.ubereats.com/new-york/food-delivery/pollos-a-la-brasa-mario/Rc2JNCm8Q_itFo8gmHKkXw/",
+      "grubhub": "https://www.grubhub.com/restaurant/pollos-a-la-brasa-mario-81-8101-roosevelt-ave-queens/2192445"
+    },
+    "woodhaven_queens_ny": {
+      "name": "Pollos Mario Woodhaven",
+      "address": "63-20 Woodhaven Blvd, Rego Park / Queens, NY 11374",
+      "phone": "(718) 565-2055",
+      "website": "https://www.pollosmario.com/",
+      "instagram": "https://www.instagram.com/pollosmario_woodhaven/",
+      "instagram_handle": "@pollosmario_woodhaven",
+      "facebook": "https://www.facebook.com/people/Pollos-Mario-Woodhaven/100063688175510/",
+      "doordash": "https://www.doordash.com/store/pollos-mario-woodhaven-queens-980269/",
+      "grubhub": "https://www.grubhub.com/restaurant/pollos-a-la-brasa-mario-63-20-woodhaven-blvd-rego-park/74395"
+    },
+    "hempstead_ny": {
+      "name": "Pollos Mario Steak House & Seafood (Hempstead)",
+      "address": "75 N Franklin St, Hempstead, NY 11550",
+      "phone": "(516) 505-3200",
+      "instagram": "https://www.instagram.com/pollosmario_hempstead/",
+      "instagram_handle": "@pollosmario_hempstead",
+      "facebook": "https://www.facebook.com/PollosMarioHempstead/",
+      "twitter_x": "https://twitter.com/pollosmarioli",
+      "yelp": "https://www.yelp.com/biz/pollos-mario-steak-house-and-seafood-hempstead",
+      "grubhub": "https://www.grubhub.com/restaurant/pollos-mario-steak-house--seafood-75-n-franklin-st-hempstead/1411262",
+      "google_maps": "https://www.google.com/maps/place/Pollos+Mario+Steak+House+%26+Seafood/@40.7083632,-73.6276691,17z/data=!4m6!3m5!1s0x89c27d1f28b58c31:0x25cc62a28256c8e4!8m2!3d40.7083632!4d-73.6276691!16s%2Fg%2F1tgtgf1w"
+    },
+    "brentwood_ny": {
+      "name": "Pollos Mario Brentwood Corp.",
+      "address": "78 Wicks Rd (88 County Rte 7), Brentwood, NY 11717",
+      "phone": "(631) 617-5140",
+      "facebook": "https://www.facebook.com/pages/pollos-mario-brentwood/161986503831682",
+      "ubereats": "https://www.ubereats.com/store/pollos-mario-brentwood/UwPkhnGxR4K1Xz4R1OeX8g",
+      "google_maps": "https://www.google.com/maps/place/Pollos+Mario+Brentwood+Corp./@40.779805,-73.2610138,17z/data=!4m7!3m6!1s0x89e831ee486b2faf:0xbf9c62d3f5b80404!8m2!3d40.779805!4d-73.2610138!10e5!16s%2Fg%2F1tjy2jmg"
+    }
+  }
+}

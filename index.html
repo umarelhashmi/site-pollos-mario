@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Pollos Mario | Colombian Rotisserie, Steak &amp; Seafood · Orlando &amp; NY</title>
+  <meta name="description" content="Pollos Mario Colombian Restaurant — Rotisserie Chicken, Steak &amp; Seafood across 5 locations: Orlando FL, Jackson Heights NY, Brentwood NY, Hempstead NY, and Queens NY." />
+  <link rel="icon" type="image/png" href="assets/images/logo-pollos-mario.png" />
+  <link rel="apple-touch-icon" href="assets/images/logo-pollos-mario.png" />
+
+  <!-- Preload LCP Hero Image -->
+  <link rel="preload" as="image" href="assets/images/hero-1-bandeja-tipica.webp" type="image/webp" fetchpriority="high" />
+
+  <!-- Google Fonts: Display & High-Legibility Menu Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- TOP NAVIGATION BAR: LOGO + 5 LOCATION SWITCHER LINKS + ACTIVE PHONE & ORDER -->
+  <header class="top-signboard" id="top">
+    <div class="signboard-inner">
+      <a href="#orlando" class="brand-emblem" data-loc-trigger="orlando" aria-label="Pollos Mario Home - Orlando Default">
+        <img
+          src="assets/images/logo-pollos-mario.webp"
+          alt="Pollos Mario Steak &amp; Seafood Logo"
+          class="brand-logo-img"
+          width="160"
+          height="99"
+          fetchpriority="high"
+        />
+      </a>
+
+      <nav class="location-menubar" aria-label="Restaurant Locations">
+        <button type="button" class="loc-tab is-active" data-loc-btn="orlando">
+          <span class="loc-tab-city">Orlando, FL</span>
+          <span class="loc-tab-sub">S. Orange Blossom</span>
+        </button>
+        <button type="button" class="loc-tab" data-loc-btn="jackson-heights">
+          <span class="loc-tab-city">Jackson Heights, NY</span>
+          <span class="loc-tab-sub">81-01 Roosevelt</span>
+        </button>
+        <button type="button" class="loc-tab" data-loc-btn="brentwood">
+          <span class="loc-tab-city">Brentwood, NY</span>
+          <span class="loc-tab-sub">78 Wicks Rd</span>
+        </button>
+        <button type="button" class="loc-tab" data-loc-btn="hempstead">
+          <span class="loc-tab-city">Hempstead, NY</span>
+          <span class="loc-tab-sub">75 N Franklin</span>
+        </button>
+        <button type="button" class="loc-tab" data-loc-btn="queens">
+          <span class="loc-tab-city">Queens, NY</span>
+          <span class="loc-tab-sub">63-20 Woodhaven</span>
+        </button>
+      </nav>
+
+      <div class="signboard-actions">
+        <a href="tel:+14072511111" class="header-phone-pill" id="headerPhoneLink">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span id="headerPhoneText">(407) 251-1111</span>
+        </a>
+        <a
+          href="https://direct.chownow.com/order/29353/locations/43390"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="header-order-cta"
+          id="headerPrimaryOrderBtn"
+        >
+          Order on <span id="headerOrderPlatform">ChowNow</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- FIRST VIEW: TRIPLE-SPLIT OF 3 UP-CLOSE MENU ITEMS & DRINK (1 IMAGE ON MOBILE) -->
+  <section class="hero-stage" aria-label="Featured Pollos Mario Dishes">
+    <!-- Compact Top HUD Ribbon Above the Food -->
+    <div class="hero-top-hud">
+      <div class="hero-store-banner">
+        <span class="store-live-dot" aria-hidden="true"></span>
+        <strong id="heroStoreTitle">Pollos Mario — Orlando, FL</strong>
+        <span class="hud-sep" aria-hidden="true">·</span>
+        <span id="heroStoreAddress">8850 S. Orange Blossom Trail, Orlando, FL 32809</span>
+        <span class="hud-sep" aria-hidden="true">·</span>
+        <a href="tel:+14072511111" id="heroStorePhone" class="hud-phone">(407) 251-1111</a>
+      </div>
+      <div class="hero-order-strip" id="heroOrderBadges">
+        <!-- Populated dynamically per location -->
+      </div>
+    </div>
+
+    <!-- Triple-Split Food Showcase (Desktop: 3 angled panels | Mobile: Panel 1 only) -->
+    <div class="hero-triptych">
+      <!-- PANEL 1: BANDEJA TÍPICA (Primary Desktop & Mobile Single Hero) -->
+      <article class="triptych-panel panel-primary" data-jump-query="Bandeja">
+        <picture>
+          <source srcset="assets/images/hero-1-bandeja-tipica.webp" type="image/webp" />
+          <img
+            src="assets/images/hero-1-bandeja-tipica.png"
+            alt="Bandeja Típica — Crispy pork belly chicharrón, grilled carne asada steak, Colombian chorizo, fried egg over white rice, red beans, yellow corn arepa, sweet plantains and avocado"
+            class="triptych-img"
+            width="768"
+            height="1024"
+            fetchpriority="high"
+          />
+        </picture>
+        <div class="dish-ticket-overlay">
+          <div class="ticket-top-row">
+            <span class="ticket-num">#41</span>
+            <span class="ticket-price" id="heroPrice0">$25.98</span>
+          </div>
+          <h1 class="ticket-dish-name">Bandeja Típica</h1>
+          <p class="ticket-dish-ingredients">Chicharrón · Carne Asada · Chorizo · Huevo · Frijoles · Arepa · Maduros</p>
+        </div>
+      </article>
+
+      <!-- PANEL 2: POLLO A LA BRASA, CONSOMÉ & JUGO NATURAL DE MANGO -->
+      <article class="triptych-panel panel-secondary" data-jump-query="Pollo">
+        <picture>
+          <source srcset="assets/images/hero-2-pollo-brasa-jugo.webp" type="image/webp" />
+          <img
+            src="assets/images/hero-2-pollo-brasa-jugo.png"
+            alt="Pollo a la Brasa rotisserie chicken with steaming chicken consomé soup, yellow corn arepa, green ají, and frosty Jugo de Mango Natural"
+            class="triptych-img"
+            width="768"
+            height="1024"
+            fetchpriority="high"
+          />
+        </picture>
+        <div class="dish-ticket-overlay">
+          <div class="ticket-top-row">
+            <span class="ticket-num">#23 + #82</span>
+            <span class="ticket-price" id="heroPrice1">$19.48 · Jugo $6.82</span>
+          </div>
+          <h2 class="ticket-dish-name">Pollo a la Brasa &amp; Jugo de Mango</h2>
+          <p class="ticket-dish-ingredients">Charcoal Rotisserie Chicken · Consomé con Papa · Arepa · Natural Mango Juice</p>
+        </div>
+      </article>
+
+      <!-- PANEL 3: ARROZ A LA MARINERA (SEAFOOD RICE WITH LOBSTER TAIL) -->
+      <article class="triptych-panel panel-tertiary" data-jump-query="Marinera">
+        <picture>
+          <source srcset="assets/images/hero-3-arroz-marinera.webp" type="image/webp" />
+          <img
+            src="assets/images/hero-3-arroz-marinera.png"
+            alt="Arroz a la Marinera — Colombian yellow seafood rice crowned with split broiled lobster tail, jumbo shrimp, mussels, and calamari"
+            class="triptych-img"
+            width="768"
+            height="1024"
+          />
+        </picture>
+        <div class="dish-ticket-overlay">
+          <div class="ticket-top-row">
+            <span class="ticket-num">#30</span>
+            <span class="ticket-price" id="heroPrice2">$38.98</span>
+          </div>
+          <h2 class="ticket-dish-name">Arroz a la Marinera</h2>
+          <p class="ticket-dish-ingredients">Broiled Lobster Tail · Garlic Shrimp · Mussels · Calamari · Saffron Rice</p>
+        </div>
+      </article>
+    </div>
+
+    <!-- Bottom Quick-Jump Bar Inside First Screen -->
+    <div class="hero-bottom-bar">
+      <a href="#comanda-board" class="jump-menu-btn">
+        <span>Explore Full <strong id="heroBottomStoreName">Orlando, FL</strong> Menu (<span id="heroBottomItemCount">132</span> Items)</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- MAIN WORKBENCH: ASYMMETRIC COLOMBIAN ASADERO "COMANDA" SPLIT-BOARD -->
+  <main class="asadero-workbench" id="comanda-board">
+    <!-- LEFT RAIL: ACTIVE STORE PASSPORT + ORDERING LINKS + DAILY SANCOCHO DIAL + CATEGORY INDEX -->
+    <aside class="comanda-sidebar" aria-label="Store Details and Menu Categories">
+      <!-- Active Store Passport Stamp Card -->
+      <div class="store-passport-card">
+        <div class="passport-header">
+          <img
+            src="assets/images/original/orlando_storefront_square_IMG_5538_edited.webp"
+            alt="Pollos Mario Storefront"
+            class="passport-thumb"
+            id="storePassportImg"
+            width="72"
+            height="72"
+            loading="lazy"
+          />
+          <div class="passport-title-wrap">
+            <span class="passport-code" id="storeCodeBadge">FL · 02</span>
+            <h2 class="passport-name" id="storePassportName">Pollos Mario — Orlando, FL</h2>
+            <p class="passport-tagline" id="storePassportTagline">8850 S. Orange Blossom Trail, Orlando, FL 32809</p>
+          </div>
+        </div>
+
+        <!-- Phone & Directions Action Row -->
+        <div class="passport-contact-grid">
+          <a href="tel:+14072511111" class="contact-stamp-btn is-phone" id="storePhoneBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span id="storePhoneLabel">(407) 251-1111</span>
+          </a>
+          <a href="https://www.google.com/maps/dir//pollos+mario+orlando" target="_blank" rel="noopener noreferrer" class="contact-stamp-btn is-map" id="storeDirectionsBtn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Directions</span>
+          </a>
+        </div>
+
+        <!-- Online Ordering Platforms for This Location -->
+        <div class="passport-order-block">
+          <div class="block-micro-label">Online Ordering (<span id="storeOrderCount">1</span>)</div>
+          <div class="order-platform-list" id="sidebarOrderList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Store Hours -->
+        <div class="passport-hours-block">
+          <div class="block-micro-label">Hours</div>
+          <ul class="hours-compact-list" id="storeHoursList">
+            <!-- Populated by JS -->
+          </ul>
+        </div>
+
+        <!-- Social Links (Instagram & Facebook) -->
+        <div class="passport-socials-block">
+          <div class="block-micro-label">Socials</div>
+          <div class="social-pills-row" id="storeSocialsList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 7-Day Colombian "Sopa del Día / Sancocho" Rotary Dial -->
+      <div class="sancocho-wheel-card">
+        <div class="sancocho-card-top">
+          <span class="sancocho-badge">Sopas del Día</span>
+          <span class="sancocho-sub">Daily Traditional Pot</span>
+        </div>
+        <div class="sancocho-day-tabs" id="sancochoDayTabs" role="tablist" aria-label="Daily Soups">
+          <!-- Populated by JS -->
+        </div>
+        <div class="sancocho-active-display" id="sancochoActiveDisplay">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Sticky Category Ledger Navigation -->
+      <nav class="category-index-card" aria-label="Menu Categories">
+        <div class="block-micro-label">Menu Categories</div>
+        <div class="category-pill-rail" id="categoryNavList">
+          <!-- Populated by JS -->
+        </div>
+      </nav>
+    </aside>
+
+    <!-- RIGHT MAIN STAGE: THE STORE'S COMPLETE MENU & PRICES -->
+    <section class="comanda-menu-stage" aria-label="Store Menu">
+      <!-- Sticky Menu Control Bar: Store Switcher Pills + Search Input -->
+      <div class="menu-control-bar">
+        <div class="menu-control-title">
+          <h2 id="menuStageHeading">Orlando, FL Menu</h2>
+          <span class="menu-source-pill" id="menuSourceBadge">ChowNow Official Menu · 132 Items</span>
+        </div>
+
+        <div class="menu-search-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input
+            type="search"
+            id="menuSearchInput"
+            placeholder="Search Bandeja, Churrasco, Sancocho, Jugo..."
+            aria-label="Search menu items"
+          />
+          <button type="button" class="clear-search-btn" id="clearSearchBtn" hidden aria-label="Clear search">×</button>
+        </div>
+      </div>
+
+      <!-- All 5 Locations Quick-Compare Bar -->
+      <div class="five-stores-strip" aria-label="All 5 Locations Overview">
+        <!-- Populated by JS so user can see all 5 stores' phones & ordering links at a glance or switch -->
+      </div>
+
+      <!-- Menu Categories & Dish Tickets Container -->
+      <div id="menuCategoriesContainer" class="menu-categories-wrapper">
+        <!-- Populated dynamically with exact items & prices for the selected store -->
+      </div>
+    </section>
+  </main>
+
+  <!-- COMPACT HORIZONTAL FILMSTRIP: ORIGINAL STOREFRONT, MENU & CUSTOMER PHOTOS -->
+  <section class="original-reel-section" aria-label="Original Restaurant and Customer Dish Photos">
+    <div class="section-compact-bar">
+      <div>
+        <h2 class="section-compact-title">Original Storefronts &amp; Plated Dishes</h2>
+        <p class="section-compact-sub">Original photos from Pollos Mario &amp; Orlando customer table shots — tap any photo to inspect</p>
+      </div>
+      <div class="reel-scroll-controls">
+        <button type="button" class="reel-arrow" id="reelPrevBtn" aria-label="Scroll photos left">←</button>
+        <button type="button" class="reel-arrow" id="reelNextBtn" aria-label="Scroll photos right">→</button>
+      </div>
+    </div>
+    <div class="original-photo-strip" id="originalPhotoStrip">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- GOOGLE MAPS REVIEWS & ABOUT HIGHLIGHTS (ORLANDO 4.5★ · 7,161 REVIEWS) -->
+  <section class="reviews-about-section" id="reviews" aria-label="Google Maps Reviews and Restaurant Info">
+    <div class="reviews-header-strip">
+      <div class="gmaps-score-badge">
+        <span class="score-num">4.5</span>
+        <div class="score-stars" aria-label="4.5 out of 5 stars">★★★★★</div>
+        <span class="score-count">7,161 Google Reviews · $20–30</span>
+      </div>
+      <div class="reviews-header-actions">
+        <a
+          href="https://www.google.com/maps/place/Pollos+Mario/@28.4365352,-81.4050051,127m/data=!3m1!1e3!4m8!3m7!1s0x88e77d1bd62d32f7:0xfcbcbcf0eeb07743!8m2!3d28.4367274!4d-81.4048423!9m1!1b1!16s%2Fg%2F1trxl2xd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="gmaps-verify-link"
+        >
+          View on Google Maps ↗
+        </a>
+      </div>
+    </div>
+
+    <div class="reviews-ticket-grid" id="reviewsGrid">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Google Maps "About" Features & Amenities Ledger -->
+    <div class="about-attributes-board" id="aboutAttributesBoard">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- FOOTER: ALL 5 LOCATIONS DIRECTORY, PHONES, ORDERING & SOCIALS -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand-col">
+        <img
+          src="assets/images/logo-pollos-mario.webp"
+          alt="Pollos Mario Steak &amp; Seafood"
+          class="footer-logo"
+          width="140"
+          height="87"
+          loading="lazy"
+        />
+        <p class="footer-copy">© 2026 Pollos Mario · Colombian Rotisserie, Steak &amp; Seafood</p>
+      </div>
+      <div class="footer-locations-grid" id="footerLocationsGrid">
+        <!-- Populated by JS with all 5 locations, phones, addresses, ordering & social links -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTWEIGHT NATIVE DIALOG FOR INSPECTING ANY DISH OR STORE PHOTO -->
+  <dialog class="photo-lightbox" id="photoLightbox">
+    <div class="lightbox-inner">
+      <button type="button" class="lightbox-close" id="lightboxCloseBtn" aria-label="Close photo preview">×</button>
+      <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </dialog>
+
+  <script src="assets/data/locations-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

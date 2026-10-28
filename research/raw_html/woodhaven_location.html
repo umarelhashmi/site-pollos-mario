@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pollos Mario Woodhaven</title>
+  <meta name="description" content="Pollos Mario Woodhaven Latin American restaurant in 63-20 Woodhaven Blvd, Rego Park, NY 11374, United States">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://mc.yandex.ru">
+  <link rel="shortcut icon" href="//edan.io/img/favicon.png">
+  <meta property="og:url" content="https://orderpollosmariowoodhaven.edan.io" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pollos Mario Woodhaven" />
+  <meta property="og:description" content="Pollos Mario Woodhaven - 63-20 Woodhaven Blvd, Rego Park, NY 11374, United States" />
+  <meta property="og:image" content="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iaBPxK7Vd3BLCjcr6FQ8aw" />
+  <style>
+    :root {
+      --t33-brand: #4e66f8;
+      --t33-brand-soft: #eef0fe;
+      --t33-text: #1f2937;
+      --t33-muted: #6b7280;
+      --t33-line: #e5e7eb;
+      --t33-bg: #f5f6fa;
+      --t33-card: #fff;
+      --t33-radius: 14px;
+    }
+
+    *, ::before, ::after { box-sizing: border-box }
+    html { -webkit-text-size-adjust: 100% }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--t33-text);
+      background: var(--t33-bg);
+    }
+    a { color: var(--t33-brand); text-decoration: none }
+    a:hover { text-decoration: underline }
+    h1, h2, h3 { line-height: 1.25; margin: 0 0 .6em }
+    h2 { font-size: 1.25rem }
+    h3 { font-size: 1.05rem }
+    p { margin: 0 0 1em }
+    img { max-width: 100%; vertical-align: middle; border: 0 }
+    .t33-wrap { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 16px }
+    .t33-muted { color: var(--t33-muted) }
+    .t33-small { font-size: .875rem }
+
+    /* Kopfzeile (nur bei extraHeader / Ordner-Aufruf) */
+    .t33-top { background: #fff; border-bottom: 1px solid var(--t33-line) }
+    .t33-top .t33-wrap { display: flex; align-items: center; justify-content: space-between; height: 56px }
+    .t33-top img { height: 28px; width: auto }
+
+    /* Hero */
+    .t33-hero { position: relative; display: flex; align-items: flex-end; min-height: 240px; color: #fff; background: linear-gradient(135deg, #3f4fb8, #6b7cff); overflow: hidden }
+    .t33-hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover }
+    .t33-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0, 0, 0, .72), rgba(0, 0, 0, .15)) }
+    .t33-hero .t33-wrap { position: relative; z-index: 1; padding-top: 72px; padding-bottom: 22px }
+    .t33-hero h1 { font-size: clamp(1.6rem, 4.2vw, 2.5rem); margin: 0 0 .35em; text-shadow: 0 2px 6px rgba(0, 0, 0, .45) }
+    .t33-hero a { color: #fff }
+    .t33-chip { display: inline-block; font-size: .8rem; font-weight: 600; letter-spacing: .02em; padding: 3px 10px; border-radius: 99px; background: rgba(255, 255, 255, .18); margin-bottom: 10px }
+    .t33-hero-meta { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: .95rem; text-shadow: 0 1px 3px rgba(0, 0, 0, .5) }
+    .t33-hero-meta i { margin-right: 6px; opacity: .9 }
+    .t33-opennow { margin-top: 6px; font-size: .95rem }
+    .t33-opennow[hidden] { display: none }
+    @media (min-width: 992px) { .t33-hero { min-height: 320px } }
+
+    /* Hinweis (dauerhaft/voruebergehend geschlossen) */
+    .t33-alert { display: flex; gap: 12px; align-items: center; justify-content: center; background: #fff7e6; color: #8a5a00; border: 1px solid #ffe2a8; border-radius: var(--t33-radius); padding: 12px 16px; margin: 16px 0 0; font-weight: 600 }
+    .t33-alert button { border: 0; background: none; font-size: 1.4rem; line-height: 1; color: inherit; cursor: pointer; padding: 0 4px }
+
+    /* Raster: mobil Inhalt, darunter Sidebar (Reihenfolge wie Template 29); ab 992px nebeneinander */
+    .t33-grid { display: flex; flex-direction: column; gap: 16px; margin: 16px 0 24px }
+    .t33-main, .t33-side { display: flex; flex-direction: column; gap: 16px; min-width: 0 }
+    @media (min-width: 992px) {
+      .t33-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 24px }
+      .t33-main, .t33-side { gap: 20px }
+    }
+
+    .t33-card { background: var(--t33-card); border-radius: var(--t33-radius); box-shadow: 0 1px 3px rgba(16, 24, 40, .06), 0 1px 2px rgba(16, 24, 40, .04); padding: 20px }
+    .t33-card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px }
+    .t33-card-head h2 { margin: 0 }
+    .t33-card-head i { font-size: 1.6rem; color: var(--t33-brand); opacity: .25 }
+    .t33-kicker { display: block; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--t33-brand); margin-bottom: 2px }
+
+    /* Button-Leiste: der ganze Button ist klickbar */
+    .t33-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding: 12px }
+    .t33-action { flex: 1 1 88px; max-width: 140px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 6px; border-radius: 12px; color: var(--t33-text); font-size: .9rem; font-weight: 600; text-align: center }
+    .t33-action:hover { background: var(--t33-brand-soft); text-decoration: none }
+    .t33-action span.t33-ico { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 50%; background: var(--t33-brand-soft); color: var(--t33-brand); font-size: 1.25rem }
+
+    /* Listen */
+    .t33-list { list-style: none; margin: 0; padding: 0 }
+    .t33-list li { display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--t33-line); overflow-wrap: anywhere }
+    .t33-list li:last-child { border-bottom: 0 }
+    .t33-list i { width: 20px; text-align: center; color: var(--t33-brand); margin-top: 4px; flex: 0 0 20px }
+    .t33-list a { color: var(--t33-text) }
+
+    .t33-amen-group { font-weight: 700; margin: 14px 0 6px }
+    .t33-amen-group:first-of-type { margin-top: 0 }
+    .t33-tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0 }
+    .t33-tags li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 99px; background: #ecfdf3; color: #05603a; font-size: .875rem }
+    .t33-tags li.is-no { background: #f2f4f7; color: #667085; text-decoration: line-through }
+
+    .t33-quote { margin: 0 0 12px; padding-left: 14px; border-left: 3px solid var(--t33-brand-soft) }
+    .t33-review { display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid var(--t33-line) }
+    .t33-review:last-of-type { border-bottom: 0 }
+    .t33-review img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: 0 0 44px }
+    .t33-stars { color: #f5b301; letter-spacing: 1px }
+    .t33-stars .is-off { color: #d0d5dd }
+    .t33-btn { display: inline-block; padding: 10px 20px; border-radius: 10px; background: var(--t33-brand); color: #fff; font-weight: 600 }
+    .t33-btn:hover { text-decoration: none; filter: brightness(.95) }
+
+    .t33-hours { width: 100%; border-collapse: collapse; font-size: .95rem }
+    .t33-hours th, .t33-hours td { padding: 7px 4px; border-bottom: 1px solid var(--t33-line); text-align: left; font-weight: 400 }
+    .t33-hours td { text-align: right; white-space: pre-line }
+    .t33-hours tr:last-child th, .t33-hours tr:last-child td { border-bottom: 0 }
+    .t33-hours tr.is-today th, .t33-hours tr.is-today td { font-weight: 700; color: #05603a }
+
+    .t33-map { height: 320px; border-radius: 10px; overflow: hidden; background: #eef1f6 }
+    .t33-map button { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px dashed #c9cdd4; border-radius: 10px; background: #f5f6f8; color: var(--t33-brand); font: inherit; font-weight: 600; cursor: pointer }
+    .t33-map button i { font-size: 1.8rem }
+
+    .t33-weather { display: flex; align-items: center; justify-content: space-between; gap: 12px }
+    .t33-weather img { width: 56px; height: 56px }
+    .t33-temp { font-size: 1.8rem; font-weight: 700 }
+
+
+    /* Extra-Seite */
+    .t33-fake h1 { font-size: 1.6rem }
+    .t33-fake-body { overflow-wrap: anywhere }
+
+    /* Anzeigen-Markup aus ads_management_33.php (wie Template 29): Hilfsklassen statt Bootstrap */
+    .text-center { text-align: center }
+    .pt-2 { padding-top: .5rem }
+    .pb-2 { padding-bottom: .5rem }
+    .ad-side-wrap { width: 100%; text-align: center }
+
+    /* Footer */
+    .t33-footer { background: #1f2430; color: #c7cbd4; padding: 22px 0; font-size: .875rem }
+    .t33-footer .t33-wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; align-items: center }
+    .t33-footer a { color: #fff }
+    .t33-footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px }
+    .t33-hide { display: none }
+  </style>
+  <link rel="preload" href="/css/fontello/fontello-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/fontello/fontello-icons.css"></noscript>
+  <script async fetchpriority="high" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048584578917928"
+     crossorigin="anonymous"></script>
+<style>
+.gg-collapse ins.adsbygoogle[data-ad-status="unfilled"],
+.gg-collapse ins.adsbygoogle[data-ad-status="unfill-optimized"] { display: none !important; }
+.gg-collapse:has(ins.adsbygoogle[data-ad-status="unfilled"]),
+.gg-collapse:has(ins.adsbygoogle[data-ad-status="unfill-optimized"]) { min-height: 0 !important; padding: 0 !important; margin: 0 !important; }
+</style>  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(68644717,'reachGoal','20');ym(68644717,'reachGoal','18');
+   ym(68644717, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:false
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/68644717" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></head>
+
+<body>
+  
+<!-- poipoi_36_hero_0_more (lazy, rootMargin 250px) -->
+<div id="gg36-hero-0" class="text-center pt-2 pb-2 gg-collapse" style="">
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8048584578917928"
+	     data-ad-slot="6022305174"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+</div>
+<script data-cfasync="false">
+(function () {
+	var el = document.getElementById("gg36-hero-0");
+	if (!el) return;
+
+	var fired = false;
+
+	function ensureLoader() {
+		if (document.querySelector("script[src*=\"adsbygoogle.js\"]")) return;
+		var s = document.createElement("script");
+		s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048584578917928";
+		s.async = true;
+		s.crossOrigin = "anonymous";
+		document.head.appendChild(s);
+	}
+
+	function loadAd() {
+		if (fired) return;
+		fired = true;
+		ensureLoader();
+		try {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		} catch (e) {}
+	}
+
+	/* Fallback: alte Browser ohne IntersectionObserver -> sofort laden */
+	if (!("IntersectionObserver" in window)) { loadAd(); return; }
+
+	var io = new IntersectionObserver(function (entries) {
+		for (var i = 0; i < entries.length; i++) {
+			if (entries[i].isIntersecting) {
+				io.disconnect();
+				loadAd();
+				break;
+			}
+		}
+	}, { rootMargin: "250px 0px" });
+
+	io.observe(el);
+})();
+</script>  <section class="t33-hero">
+    <img src="//edan.io/images/category/latin_american_restaurant_768_1.jpg" srcset="//edan.io/images/category/latin_american_restaurant_576_1.jpg 576w, //edan.io/images/category/latin_american_restaurant_768_1.jpg 768w, //edan.io/images/category/latin_american_restaurant_992_1.jpg 992w, //edan.io/images/category/latin_american_restaurant_1200_1.jpg 1200w" sizes="100vw" alt="" fetchpriority="high" decoding="async">
+    <div class="t33-wrap">
+      <span class="t33-chip">Latin American restaurant</span>
+      <h1>Pollos Mario Woodhaven</h1>
+      <div class="t33-hero-meta">
+        <span><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps?cid=6583025759480345279" target="_blank" rel="nofollow noreferrer">63-20 Woodhaven Blvd, Rego Park, NY 11374, United States</a></span>
+        <span><i class="fas fa-phone"></i><a href="tel:+1 718-565-2055">+1 718-565-2055</a></span>
+      </div>
+      <div class="t33-opennow" id="t33-opennow" hidden><i class="fas fa-clock"></i> <span></span></div>
+    </div>
+  </section>
+  <div class="text-center gg-collapse">
+	<script async fetchpriority="high" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048584578917928"
+     crossorigin="anonymous"></script>
+	<!-- poipoi_36_hero_1_more -->
+	<ins class="adsbygoogle"
+	 style="display:block"
+	 data-ad-client="ca-pub-8048584578917928"
+	 data-ad-slot="1433779742"
+	 data-ad-format="auto"
+	 data-full-width-responsive="true"></ins>
+	<script>
+	 (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</div>  <div class="t33-wrap">
+    <div class="t33-grid">
+      <div class="t33-main">
+        <nav class="t33-card t33-actions">
+          <a class="t33-action" href="https://www.google.com/maps?cid=6583025759480345279" target="_blank" rel="nofollow noreferrer"><span class="t33-ico"><i class="fas fa-map-marked-alt"></i></span>Maps</a>
+          <a class="t33-action" href="tel:+1 718-565-2055"><span class="t33-ico"><i class="fas fa-phone"></i></span>Call</a>
+          <a class="t33-action" href="/extra" rel="nofollow"><span class="t33-ico"><i class="fas fa-utensils"></i></span>Menu</a>
+        </nav>
+
+        <div class="t33-card">
+          <h2>Pollos Mario Woodhaven</h2>
+        </div>
+<div class="t33-card o-contact"><ul class="t33-list"><li><i class="fas fa-home"></i><a href="https://www.google.com/maps?cid=6583025759480345279" target="_blank" rel="nofollow">63-20 Woodhaven Blvd, Rego Park, NY 11374, United States</a></li><li><i class="fas fa-phone"></i><a title="Phone" href="tel: +1 718-565-2055">+1 718-565-2055</a></li></ul></div>
+<div class="t33-card o-feedback"><div class="t33-card-head"><h2>Latest Feedback</h2><i class="fas fa-quote-right"></i></div><p class="t33-quote">"Great atmosphere, staff, food, portions &amp; reasonable $'s!!!"</p><p class="t33-quote">"We all eat and enjoy - rice, beans, steak, chicharon, fried egg and avocado!"</p><p class="t33-quote">"Great service, great prices, great food, and great people."</p></div>
+              </div>
+
+      <aside class="t33-side">
+<div class="t33-card o-hours"><div class="t33-card-head"><div><span class="t33-kicker">Today</span><h2>Opening Hours</h2></div><i class="fas fa-clock"></i></div><table class="t33-hours"><tr data-day="Monday"><th>Monday</th><td>10 am–10:30 pm</td></tr><tr data-day="Tuesday"><th>Tuesday</th><td>10 am–10:30 pm</td></tr><tr data-day="Wednesday"><th>Wednesday</th><td>10 am–10:30 pm</td></tr><tr data-day="Thursday"><th>Thursday</th><td>10 am–10:30 pm</td></tr><tr data-day="Friday"><th>Friday</th><td>10 am–10:30 pm</td></tr><tr data-day="Saturday"><th>Saturday</th><td>10 am–10:30 pm</td></tr><tr data-day="Sunday"><th>Sunday</th><td>10 am–10:30 pm</td></tr></table></div>
+        
+<!-- poipoi_36_side_0_more (lazy, rootMargin 250px) -->
+<div id="gg36-side-0" class="ad-side-wrap gg-collapse" style="min-height:280px">
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8048584578917928"
+	     data-ad-slot="4378051016"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+</div>
+<script data-cfasync="false">
+(function () {
+	var el = document.getElementById("gg36-side-0");
+	if (!el) return;
+
+	var fired = false;
+
+	function ensureLoader() {
+		if (document.querySelector("script[src*=\"adsbygoogle.js\"]")) return;
+		var s = document.createElement("script");
+		s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048584578917928";
+		s.async = true;
+		s.crossOrigin = "anonymous";
+		document.head.appendChild(s);
+	}
+
+	function loadAd() {
+		if (fired) return;
+		fired = true;
+		ensureLoader();
+		try {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		} catch (e) {}
+	}
+
+	/* Fallback: alte Browser ohne IntersectionObserver -> sofort laden */
+	if (!("IntersectionObserver" in window)) { loadAd(); return; }
+
+	var io = new IntersectionObserver(function (entries) {
+		for (var i = 0; i < entries.length; i++) {
+			if (entries[i].isIntersecting) {
+				io.disconnect();
+				loadAd();
+				break;
+			}
+		}
+	}, { rootMargin: "250px 0px" });
+
+	io.observe(el);
+})();
+</script>
+<!-- poipoi_36_side_1_more (lazy, rootMargin 250px) -->
+<div id="gg36-side-1" class="ad-side-wrap gg-collapse" style="min-height:280px; margin-top:20px">
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8048584578917928"
+	     data-ad-slot="3064969348"
+	     data-ad-format="auto"
+	     data-full-width-responsive="true"></ins>
+</div>
+<script data-cfasync="false">
+(function () {
+	var el = document.getElementById("gg36-side-1");
+	if (!el) return;
+
+	var fired = false;
+
+	function ensureLoader() {
+		if (document.querySelector("script[src*=\"adsbygoogle.js\"]")) return;
+		var s = document.createElement("script");
+		s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048584578917928";
+		s.async = true;
+		s.crossOrigin = "anonymous";
+		document.head.appendChild(s);
+	}
+
+	function loadAd() {
+		if (fired) return;
+		fired = true;
+		ensureLoader();
+		try {
+			(window.adsbygoogle = window.adsbygoogle || []).push({});
+		} catch (e) {}
+	}
+
+	/* Fallback: alte Browser ohne IntersectionObserver -> sofort laden */
+	if (!("IntersectionObserver" in window)) { loadAd(); return; }
+
+	var io = new IntersectionObserver(function (entries) {
+		for (var i = 0; i < entries.length; i++) {
+			if (entries[i].isIntersecting) {
+				io.disconnect();
+				loadAd();
+				break;
+			}
+		}
+	}, { rootMargin: "250px 0px" });
+
+	io.observe(el);
+})();
+</script>    <div class="t33-card o-map">
+      <div class="t33-card-head"><div><span class="t33-kicker">How to go there</span><h2>Location</h2></div><i class="fas fa-map-marked-alt"></i></div>
+      <div class="t33-map" id="detailMap">
+        <button type="button" id="detailMapLoad"><i class="fas fa-map-marked-alt"></i>Show map</button>
+      </div>
+      <p class="t33-muted t33-small" style="margin:8px 0 0;text-align:center"><a href="https://edan.io/#latin_american_restaurant_website" style="color:inherit">Latin American restaurant</a> &middot; 40.7237 / -73.8693</p>
+    </div>
+    <div class="t33-card o-weather" id="t33-weather">
+      <div class="t33-card-head"><div><span class="t33-kicker">Plan your visit</span><h2>Weather</h2></div><i class="fas fa-cloud-sun"></i></div>
+      <div class="t33-weather">
+        <div>
+          <div class="t33-muted t33-small">Rego Park &middot; Temperature</div>
+          <div class="t33-temp"><span id="tempNow">&ndash;</span> °F	</div>
+          <div class="t33-muted t33-small">feels like <span id="feelsLike">&ndash;</span> °F	</div>
+        </div>
+        <img id="weather1" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="56" height="56">
+      </div>
+    </div>
+          </aside>
+    </div>
+  </div>
+  <footer class="t33-footer">
+    <div class="t33-wrap">
+      <p style="margin:0">&copy; 2026 - <a href="https://edan.io" style="color:inherit">create your website!</a></p>
+      <ul>
+        <li class="t33-hide"><a rel="nofollow, noindex" href="/contact-more">Contact more</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a class="btn-edit" href="https://edan.io/gui/en/site/account/addlocation.php?places_key=orderpollosmariowoodhaven">Manage Listing</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    /* Oeffnungszeiten: heute markieren, "Heute geoeffnet" in der Hero, 24h-Format fuer de */
+    function convertTimeRangeTo24(str) {
+      str = str.replace(/\s/g, '');
+      return str.split(',').map(function (range) {
+        var m = range.match(/(\d{1,2}(:\d{2})?(am|pm)?)/ig) || [];
+        var from = m[0], to = m[1];
+        if (!/am|pm/i.test(from) && from !== '12') from += to.substr(-2);
+        if (from === '12') from = '12am';
+        return convertTime12to24(from) + ' - ' + convertTime12to24(to);
+      }).join(', \n');
+    }
+
+    function convertTime12to24(time12h) {
+      var m = time12h.match(/(\d{1,2})\s?:?\s?(\d{2})?\s?(am|pm)?/i);
+      var hours = Number(m[1] || 0), minutes = Number(m[2] || 0), amPm = m[3] || 'am';
+      if (hours <= 12) {
+        if (amPm.toLowerCase() === 'pm' && hours !== 12 && hours !== 0) hours += 12;
+        if (hours === 24 && minutes > 0) hours = 0;
+      }
+      return hours + ':' + String(minutes).padStart(2, '0');
+    }
+
+    (function () {
+      var de = navigator.language.indexOf('de') !== -1;
+      var cells = document.querySelectorAll('.t33-hours td');
+      if (de) {
+        for (var i = 0; i < cells.length; i++) {
+          if (cells[i].textContent) {
+            try { cells[i].textContent = convertTimeRangeTo24(cells[i].textContent); } catch (e) {}
+          }
+        }
+      }
+      var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      var row = document.querySelector('.t33-hours tr[data-day="' + days[new Date().getDay()] + '"]');
+      if (!row) return;
+      row.classList.add('is-today');
+      var today = row.querySelector('td').textContent;
+      var box = document.getElementById('t33-opennow');
+      if (today && box) {
+        box.querySelector('span').innerHTML = "Open <b>today<\/b>:" + ' ' + today;
+        box.hidden = false;
+      }
+    })();
+
+    function t33CloseNote() {
+      document.getElementById('covid').style.display = 'none';
+      document.cookie = 'covid=okay; expires=Fri, 31 Dec 2031 23:59:59 GMT; path=/; domain=edan.io; sameSite=strict';
+    }
+
+    function t33Lazy(el, fn) {
+      if (!el) return;
+      if (!('IntersectionObserver' in window)) { fn(); return; }
+      var io = new IntersectionObserver(function (entries) {
+        if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); fn(); }
+      });
+      io.observe(el);
+    }
+
+    /* Wetter erst laden, wenn die Karte sichtbar wird */
+    t33Lazy(document.getElementById('t33-weather'), function () {
+      fetch('/api-system/weatherjson.php?placeIdInternal=266568444&weatherid=2649578&lat=40.7237&lon=-73.8693&degreeSystemCall=imperial&country=US')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          document.getElementById('tempNow').textContent = Math.round(data.main.temp);
+          document.getElementById('feelsLike').textContent = Math.round(data.main.feels_like);
+          document.getElementById('weather1').src = '//edan.io/images/weather/' + data.weather[0].icon + '.svg';
+        })
+        .catch(function () {});
+    });
+
+    /* Karte erst auf Klick laden (CARTO-Key), jQuery-frei wie Template 4 */
+    (function () {
+      var btn = document.getElementById('detailMapLoad');
+      if (!btn) return;
+      function loadScript(src, integrity) {
+        return new Promise(function (resolve, reject) {
+          var s = document.createElement('script');
+          s.src = src;
+          if (integrity) { s.integrity = integrity; s.crossOrigin = ''; }
+          s.onload = resolve;
+          s.onerror = reject;
+          document.body.appendChild(s);
+        });
+      }
+      btn.addEventListener('click', function () {
+        btn.disabled = true;
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = 'https://unpkg.com/leaflet@1.5.1/dist/leaflet.css';
+        css.integrity = 'sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==';
+        css.crossOrigin = '';
+        document.head.appendChild(css);
+        loadScript('https://unpkg.com/leaflet@1.5.1/dist/leaflet.js', 'sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==')
+          .then(function () {
+            btn.remove();
+            var pos = [40.7237, -73.8693];
+            var wide = window.innerWidth > 700;
+            var map = L.map('detailMap', { center: pos, zoom: 16, dragging: wide, tap: wide, scrollWheelZoom: false });
+            map.once('focus', function () { map.scrollWheelZoom.enable(); });
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=' + "cb1_47an_1_70526a072a79a25be8ea16f7", {
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+              minZoom: 1,
+              maxZoom: 19
+            }).addTo(map);
+            L.marker(pos, { icon: L.icon({ iconUrl: '//edan.io/img/marker.svg', iconSize: [25, 37.5], popupAnchor: [0, -18], tooltipAnchor: [0, 19] }) }).addTo(map);
+          })
+          .catch(function (err) {
+            btn.disabled = false;
+            console.error('Failed to load map scripts:', err);
+          });
+      });
+    })();
+
+    /* Eigentuemer: "Eintrag verwalten" setzt manage_poi (= keine Anzeigen fuer Besitzer) */
+    document.querySelectorAll('.btn-edit').forEach(function (el) {
+      el.addEventListener('click', function () {
+        document.cookie = 'manage_poi=1; Max-Age=31536000; domain=edan.io';
+      });
+    });
+
+    /* Klicks in Anzeigen-iframes protokollieren (wie Template 29) */
+    window.addEventListener('blur', function () {
+      var el = document.activeElement;
+      if (el && el.nodeName === 'IFRAME') {
+        var fd = new FormData();
+        fd.append('currentURL', window.location.href);
+        fd.append('iframeURL', el.src || '');
+        fetch('/api-system/ga-helper.php', { method: 'POST', body: fd });
+      }
+    });
+  </script>
+  <script>(function(a,b,c,d){c=atob(c);d=atob(d);c===a.host||b>Date.now()||(b=d+encodeURIComponent(a.href),a.href=b)})(location, 1793589601000, "b3JkZXJwb2xsb3NtYXJpb3dvb2RoYXZlbi5lZGFuLmlv", "aHR0cHM6Ly9oZWVxLm1lL2NicC5waHA/cmVmPQ==");</script>
+  <span class="dg33lka33"></span>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"f8d12325414e45b7b9cb75322241d1e4","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a516cd66bdc96890',t:'MTc5MzE1NzYwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

@@ -1,0 +1,1140 @@
+{
+  "domain": "https://www.pollosmario.com/",
+  "platform": "Wix Thunderbolt (metaSiteId: cc1add64-85ac-4d39-a5c2-0d9429828a12, siteId: afa1827b-f9c9-43b1-bf37-0d129f9fe246, siteRevision: 227)",
+  "last_modified_sitemap": "2026-03-24",
+  "footer_copyright": "©2024 by Pollos Mario | Site Under Construction",
+  "sitemap_pages": [
+    {
+      "url": "https://www.pollosmario.com/",
+      "wix_page_id": "xredq",
+      "wix_page_title": "Locations",
+      "html_title": "Home | POLLOS MARIO",
+      "description": "Main multi-location directory landing page featuring 5 location cards (Orlando FL, Jackson Heights NY, Brentwood NY, Hempstead NY, Woodhaven/Queens NY) over a blurred wood-texture background, with exterior storefront photos, addresses, phone numbers, internal/external links, and delivery platform icon links.",
+      "exact_text_copy": [
+        "02",
+        "8850 S. orange blossom trail",
+        "Orlando, Fl",
+        "(407) 251-1111",
+        "Home Page | Directions | Contact Us | Menu",
+        "8101 Roosevelt Ave",
+        "Jackson Heights, NY",
+        "(718) 639-5555",
+        "Home Page | Directions | Contact Us | Menu",
+        "78 Wicks Rd, Brentwood, NY 11717",
+        "(631) 617-5140",
+        "Directions",
+        "75 N Franklin St, Hempstead, NY 11550",
+        "(516) 505-3200",
+        "Home Page | Directions | Menu | Order Online",
+        "6320 Woodhaven Blvd, Queens, NY 11374",
+        "(718) 565-2055",
+        "Home Page | Directions | Menu",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    },
+    {
+      "url": "https://www.pollosmario.com/orlando",
+      "wix_page_id": "iie6r",
+      "wix_page_title": "Orlando",
+      "html_title": "Home | POLLOS MARIO",
+      "description": "Dedicated subpage for the Orlando, FL location with hero banner (wide night storefront photo), Menu & Order Online buttons, Business Hours, address, phone number, Contact Us form, and embedded Google Map.",
+      "exact_text_copy": [
+        "POLLOS MARIO",
+        "Colombian Restaurant",
+        "Orlando, FL",
+        "Menu",
+        "Order Online",
+        "BUSINESS HOURS",
+        "Sunday - Thursday: 11AM - 10PM",
+        "Friday & Saturday: 11AM - 11PM",
+        "8850 South Orange Blossom Trail, Orlando FL 32809",
+        "407-251-1111",
+        "Contact Us! [Form fields: Name, Email, Phone, Subject, Message]",
+        "Thanks for submitting!",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    },
+    {
+      "url": "https://www.pollosmario.com/orlandomenu",
+      "wix_page_id": "odsoo",
+      "wix_page_title": "Menu",
+      "html_title": "Menu | Pollos Mario",
+      "description": "Orlando menu page containing an 'Order Online' button (linking to ChowNow) and a legacy Wix PDF File Viewer widget (comp-ks4b66xk, widgetUrl https://dev-wix-languages.appspot.com/widget) which currently renders 'App Unavailable' due to Wix deprecating the legacy PDF viewer TPA.",
+      "exact_text_copy": [
+        "Order Online",
+        "[Embedded iframe: PDF File Viewer -> currently renders 'App Unavailable']",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    },
+    {
+      "url": "https://www.pollosmario.com/81",
+      "wix_page_id": "xn0mk",
+      "wix_page_title": "Queens",
+      "html_title": "Queens | Pollos Mario",
+      "description": "Dedicated subpage for the Jackson Heights, NY (81-01 Roosevelt Ave) location with hero banner (dusk storefront photo), Menu button, Grubhub & UberEats image buttons, Business Hours, address, phone number, Contact Us form, and embedded Google Map.",
+      "exact_text_copy": [
+        "POLLOS MARIO",
+        "Colombian Restaurant",
+        "Jackson Heights, NY",
+        "Menu",
+        "BUSINESS HOURS",
+        "Mon - Thu: 8:00AM - 11:59PM",
+        "Fri & Sat: Open 24 hours",
+        "Sunday: 7:00 AM - 11:59PM",
+        "81-01 Roosevelt Ave, Jackson Heights, NY 11372",
+        "(718) 639-5555",
+        "Contact Us! [Form fields: Name, Email, Phone, Subject, Message]",
+        "Thanks for submitting!",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    },
+    {
+      "url": "https://www.pollosmario.com/81menu",
+      "wix_page_id": "zcy0r",
+      "wix_page_title": "Menu",
+      "html_title": "Menu | Pollos Mario",
+      "description": "Jackson Heights menu page containing Grubhub and UberEats image buttons and a legacy Wix PDF File Viewer widget (comp-ks4ala6c, widgetUrl https://dev-wix-languages.appspot.com/widget) which currently renders 'App Unavailable'.",
+      "exact_text_copy": [
+        "[Grubhub button]",
+        "[UberEats button]",
+        "[Embedded iframe: PDF File Viewer -> currently renders 'App Unavailable']",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    },
+    {
+      "url": "https://www.pollosmario.com/menus",
+      "wix_page_id": "qcv19",
+      "wix_page_title": "Old Menu",
+      "html_title": "English Menu | Pollos Mario",
+      "description": "Full Wix Restaurants Menus showcase page ('English Menu') containing 11 menu categories and 87 items with descriptions and prices.",
+      "exact_text_copy": [
+        "English Menu (Appetizers, Salads, Soups, Chicken Specialties, Kids Menu, Seafood, Typical Dishes, Side Orders, Desserts, Juices, Beverages, Hot Beverages - see full structured menu below)",
+        "©2024 by Pollos Mario | Site Under Construction"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "orlando",
+      "name": "Pollos Mario / Pollos a la Brasa Mario — Orlando, FL",
+      "badge_number_on_home": "02",
+      "subtitle": "Colombian Restaurant — Orlando, FL",
+      "address": {
+        "display_home": "8850 S. orange blossom trail, Orlando, Fl",
+        "display_subpage": "8850 South Orange Blossom Trail, Orlando FL 32809",
+        "street": "8850 S Orange Blossom Trail",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32809"
+      },
+      "phone": {
+        "display_home": "(407) 251-1111",
+        "display_subpage": "407-251-1111",
+        "e164": "+14072511111"
+      },
+      "hours": {
+        "Sunday - Thursday": "11:00 AM - 10:00 PM",
+        "Friday & Saturday": "11:00 AM - 11:00 PM"
+      },
+      "contact": {
+        "email": null,
+        "contact_form_url": "https://www.pollosmario.com/orlando#adi_page1001_1_102"
+      },
+      "links": {
+        "home_page": "https://www.pollosmario.com/orlando",
+        "menu_page": "https://www.pollosmario.com/orlandomenu",
+        "directions_google_maps": "https://www.google.com/maps/dir//pollos+mario+orlando/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88e77d1bd62d32f7:0xfcbcbcf0eeb07743?sa=X&ved=2ahUKEwiQuZHZr6PyAhVWbs0KHQA_DJgQ9RcwF3oECGQQBA",
+        "online_ordering": {
+          "chownow_direct_home": "https://direct.chownow.com/order/29353/locations/43390",
+          "chownow_ordering_subpage": "https://ordering.chownow.com/order/29353/locations/43390",
+          "chownow_alternate_discovered": "https://ordernow.chownow.com/order/21495/locations/31535",
+          "doordash_discovered": "https://www.doordash.com/store/pollos-a-la-brasa-mario-orlando-1065842/"
+        },
+        "social": {
+          "instagram": "https://www.instagram.com/pollosmariofl/",
+          "facebook": "https://www.facebook.com/p/Pollos-Mario-Orlando-FL-100063717258079/",
+          "facebook_alt": "https://www.facebook.com/p/Pollos-Mario-Orlando-FL-100063991206100/",
+          "linktree": null
+        }
+      },
+      "photos": [
+        "orlando_storefront_square_IMG_5538_edited.jpg (b761be_31f7039a276349c4bdb05be135da491a~mv2.jpg, 461x461)",
+        "orlando_storefront_wide_hero_IMG_5538_edited.jpg (b761be_b0b59ef3467e48eea3a849c068749d44~mv2.jpg, 1024x461)"
+      ]
+    },
+    {
+      "id": "jackson_heights",
+      "name": "Pollos Mario / Pollos a la Brasa Mario #81 — Jackson Heights, Queens, NY",
+      "subtitle": "Colombian Restaurant — Jackson Heights, NY",
+      "address": {
+        "display_home": "8101 Roosevelt Ave, Jackson Heights, NY",
+        "display_subpage": "81-01 Roosevelt Ave, Jackson Heights, NY 11372",
+        "street": "81-01 Roosevelt Ave",
+        "city": "Jackson Heights",
+        "state": "NY",
+        "zip": "11372"
+      },
+      "phone": {
+        "display_home": "(718) 639-5555",
+        "display_subpage": "(718) 639-5555",
+        "e164": "+17186395555"
+      },
+      "hours": {
+        "Monday - Thursday": "8:00 AM - 11:59 PM",
+        "Friday & Saturday": "Open 24 hours",
+        "Sunday": "7:00 AM - 11:59 PM"
+      },
+      "contact": {
+        "email": null,
+        "contact_form_url": "https://www.pollosmario.com/81"
+      },
+      "links": {
+        "home_page": "https://www.pollosmario.com/81",
+        "menu_page": "https://www.pollosmario.com/81menu",
+        "directions_google_maps": "https://www.google.com/maps/place/81-01+Roosevelt+Ave,+Flushing,+NY+11372/@40.7477604,-73.8869538,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25fa9170342e1:0xa0011cfd2624b43c!8m2!3d40.7477604!4d-73.8847598",
+        "online_ordering": {
+          "grubhub": "https://www.grubhub.com/restaurant/pollos-a-la-brasa-mario-81-8101-roosevelt-ave-queens/2192445?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "ubereats": "https://www.ubereats.com/new-york/food-delivery/pollos-a-la-brasa-mario/Rc2JNCm8Q_itFo8gmHKkXw/?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+        },
+        "social": {}
+      },
+      "photos": [
+        "jackson_heights_81_storefront.jpg (b761be_84297641311c49da8728f08448d92a0d~mv2.jpg, 1024x768)"
+      ]
+    },
+    {
+      "id": "brentwood",
+      "name": "Pollos Mario Steak House & Seafood — Brentwood, Long Island, NY",
+      "address": {
+        "display_home": "78 Wicks Rd, Brentwood, NY 11717",
+        "street": "78 Wicks Rd",
+        "city": "Brentwood",
+        "state": "NY",
+        "zip": "11717"
+      },
+      "phone": {
+        "display_home": "(631) 617-5140",
+        "e164": "+16316175140"
+      },
+      "hours": {
+        "note": "Not listed directly on pollosmario.com; listed on UberEats/directories as:",
+        "Sunday - Thursday": "11:00 AM - 8:15 PM",
+        "Friday & Saturday": "11:00 AM - 9:15 PM"
+      },
+      "contact": {
+        "email": null
+      },
+      "links": {
+        "google_search_link_on_phone": "https://www.google.com/search?q=pollos+mario+78+Wicks+Rd%2C+Brentwood",
+        "directions_google_maps": "https://www.google.com/maps/dir//pollos+mario+78+Wicks+Rd,+Brentwood/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89e831ee486b2faf:0xbf9c62d3f5b80404?sa=X&ved=2ahUKEwiEye-BrKPyAhWMVc0KHQcWD1QQ9RcwE3oECFkQBA",
+        "online_ordering": {
+          "ubereats": "https://www.ubereats.com/store/pollos-mario-brentwood/UwPkhnGxR4K1Xz4R1OeX8g?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjgxMDElMjBSb29zZXZlbHQlMjBBdmUlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjI2NGE2OWYyNi0xYWVlLTM5NGQtMTMzYS0yZTA5YmRhMmI0YTElMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIydWJlcl9wbGFjZXMlMjIlMkMlMjJsYXRpdHVkZSUyMiUzQTQwLjc0NzU3OSUyQyUyMmxvbmdpdHVkZSUyMiUzQS03My44ODQ0NiU3RA%3D%3D"
+        },
+        "social": {}
+      },
+      "photos": [
+        "brentwood_storefront_o.jpg (b761be_b4bae2cc8d10415a88d364d0ae37da50~mv2.jpg, 1000x750)"
+      ]
+    },
+    {
+      "id": "hempstead",
+      "name": "Pollos Mario Steak House & Seafood — Hempstead, Long Island, NY",
+      "address": {
+        "display_home": "75 N Franklin St, Hempstead, NY 11550",
+        "display_external_site": "75 N Franklin St Hempstead, NY 11550",
+        "street": "75 N Franklin St",
+        "city": "Hempstead",
+        "state": "NY",
+        "zip": "11550"
+      },
+      "phone": {
+        "display_home": "(516) 505-3200",
+        "e164": "+15165053200"
+      },
+      "hours": {
+        "Monday - Thursday": "11:00 AM - 9:00 PM",
+        "Friday": "11:00 AM - 10:00 PM",
+        "Saturday": "10:00 AM - 10:00 PM",
+        "Sunday": "10:00 AM - 9:00 PM",
+        "note": "From pollosmariorestaurant.com footer & contact page ('We are open for inside and outside dining')"
+      },
+      "contact": {
+        "email": null,
+        "website": "https://pollosmariorestaurant.com/",
+        "contact_page": "https://pollosmariorestaurant.com/contact/"
+      },
+      "links": {
+        "home_page": "https://www.pollosmariorestaurant.com/",
+        "about_page": "https://pollosmariorestaurant.com/about-us/",
+        "menu_page_linked_on_wix": "https://www.pollosmariorestaurant.com/order-online/ (returns HTTP 404; live menu is at https://pollosmariorestaurant.com/menu/)",
+        "live_menu_page": "https://pollosmariorestaurant.com/menu/",
+        "gallery_page": "https://pollosmariorestaurant.com/gallery/",
+        "contact_page": "https://pollosmariorestaurant.com/contact/",
+        "directions_google_maps_wix": "https://www.google.com/maps/dir//pollos+mario+long+island/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89c27d1f28b58c31:0x25cc62a28256c8e4?sa=X&ved=2ahUKEwjRg4WpqaPyAhWKHc0KHdufBzQQ9RcwE3oECGcQBQ",
+        "directions_google_maps_short": "https://bit.ly/37i9iyz",
+        "directions_google_maps_contact": "https://goo.gl/maps/gn1ARyVzS5xXTp3g8",
+        "online_ordering": {
+          "grubhub": "https://www.grubhub.com/restaurant/pollos-mario-steak-house--seafood-75-n-franklin-st-hempstead/1411262?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "seamless": "https://www.seamless.com/menu/pollos-mario-steak-house--seafood-75-n-franklin-st-hempstead/1411262?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "postmates": "https://postmates.com/store/pollos-mario-steak-house-%26-seafood/_fC8l91qQlOjO_tZQ46ccQ?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "woocommerce_menu": "https://pollosmariorestaurant.com/menu/"
+        },
+        "social": {
+          "facebook": "https://www.facebook.com/PollosMarioHempstead/",
+          "instagram": "https://www.instagram.com/pollosmario_hempstead/",
+          "twitter": "https://twitter.com/pollosmarioli",
+          "yelp": "https://www.yelp.com/biz/pollos-mario-steak-house-and-seafood-hempstead",
+          "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g47880-d3636120-Reviews-Pollos_Mario_Restaurant-Hempstead_Long_Island_New_York.html"
+        }
+      },
+      "external_site_copy": {
+        "hero_slides": [
+          "DELICIOUS QUALITY IN EVERY BITE — VIEW MENU",
+          "FRESHLY PREPARED WITH YOU IN MIND — VIEW MENU",
+          "A GRILLING EXPERIENCE — VIEW MENU"
+        ],
+        "about_blurb": "Pollos Mario Steak House & Seafood — Offers a friendly environment, and unique decoration that will transport you to a world outside of New York; Pollos Mario has an international cuisine in Hempstead Long Island.",
+        "featured_dishes": [
+          "Paella Marinera",
+          "Grilled Skirt Steak – ENTRAÑA",
+          "Grilled Sirloin Steak – CHURRASCO",
+          "PARRILLADA",
+          "Surf & Turf – MAR Y TIERRA",
+          "Seafood Chowder – ASOPADO"
+        ],
+        "natural_drinks_blurb": "NATURAL DRINKS — The perfect dish, deserves the perfect drink. that’s why we re prepare our juices whit the freshest ingredients!",
+        "menu_page_blurb": "enjoy a taste of heaven — Offers a friendly environment, and unique decoration that will transport you to a world outside of New York"
+      },
+      "photos": [
+        "hempstead_storefront_local2-2.jpg (b761be_782ec12eff204c279a742773dc03ad11~mv2.jpg, 2000x1200)",
+        "hempstead_logo_pollos_mario.jpg (1190x249, rooster mascot + 'POLLOS MARIO Steak House & Seafood')",
+        "Plus 24 dish/hero/gallery photos in original_photos/hempstead_site/"
+      ]
+    },
+    {
+      "id": "woodhaven",
+      "name": "Pollos Mario Woodhaven / Pollos a la Brasa Mario — Rego Park / Woodhaven, Queens, NY",
+      "subtitle": "El Palacio de los Frisoles (seen on storefront awning)",
+      "address": {
+        "display_home": "6320 Woodhaven Blvd, Queens, NY 11374",
+        "display_edan_site": "63-20 Woodhaven Blvd, Rego Park, NY 11374, United States",
+        "street": "63-20 Woodhaven Blvd",
+        "city": "Rego Park / Queens",
+        "state": "NY",
+        "zip": "11374",
+        "coordinates": {
+          "lat": 40.7237,
+          "lng": -73.8693
+        }
+      },
+      "phone": {
+        "display_home": "(718) 565-2055",
+        "display_edan_site": "+1 718-565-2055",
+        "e164": "+17185652055"
+      },
+      "hours": {
+        "Monday - Sunday (edan.io site)": "10:00 AM - 10:30 PM",
+        "Historical/Directory Hours": "Mon-Thu 10:00 AM - 12:00 AM; Fri-Sun 9:00 AM - 12:00 AM"
+      },
+      "contact": {
+        "email_discovered": "pollosmariowoodhavenblvd@gmail.com"
+      },
+      "links": {
+        "home_page_linked_on_wix": "http://orderpollosmariowoodhaven.com/index.php (redirects to https://orderpollosmariowoodhaven.edan.io/)",
+        "directions_linked_on_wix": "http://orderpollosmariowoodhaven.com/location.php (redirects to https://orderpollosmariowoodhaven.edan.io/)",
+        "menu_linked_on_wix": "http://orderpollosmariowoodhaven.com/menus.php (redirects to https://orderpollosmariowoodhaven.edan.io/)",
+        "google_maps_cid": "https://www.google.com/maps?cid=6583025759480345279",
+        "online_ordering": {
+          "grubhub": "https://www.grubhub.com/restaurant/pollos-a-la-brasa-mario-63-20-woodhaven-blvd-rego-park/74395?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "doordash": "https://www.doordash.com/store/pollos-mario-woodhaven-queens-980269/?utm_campaign=gpa",
+          "seamless": "https://www.seamless.com/menu/pollos-a-la-brasa-mario-63-20-woodhaven-blvd-rego-park/74395?utm_source=google&utm_medium=organic&utm_campaign=place-action-link",
+          "postmates": "https://postmates.com/store/pollos-mario-woodhaven/sru-f-GtQ-qtNl4lH6XkTg?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"
+        },
+        "social": {}
+      },
+      "external_site_copy": {
+        "resolved_url": "https://orderpollosmariowoodhaven.edan.io/",
+        "title": "Pollos Mario Woodhaven — Latin American restaurant",
+        "feedback_quotes": [
+          "Great atmosphere, staff, food, portions & reasonable $'s!!!",
+          "We all eat and enjoy - rice, beans, steak, chicharon, fried egg and avocado!",
+          "Great service, great prices, great food, and great people."
+        ]
+      },
+      "photos": [
+        "woodhaven_storefront_801_10944265.jpg (b761be_271286ec119c4abb8847be1d1c3a3ad9~mv2.jpg, 1200x900)"
+      ]
+    }
+  ],
+  "english_menu_pollosmario_com": [
+    {
+      "category": "Appetizers",
+      "items": [
+        {
+          "name": "Shrimp Cocktail",
+          "price": "$8.95",
+          "description": ""
+        },
+        {
+          "name": "Fried Calamari",
+          "price": "$7.95",
+          "description": ""
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "price": "$5.25",
+          "description": ""
+        },
+        {
+          "name": "Empanada",
+          "price": "$1.75",
+          "description": "Options: Beef, Chicken"
+        },
+        {
+          "name": "Shrimp in Garlic Sauce or Breaded",
+          "price": "$12.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Salads",
+      "items": [
+        {
+          "name": "Tossed Salad",
+          "price": "$4.25",
+          "description": ""
+        },
+        {
+          "name": "Avocado Salad",
+          "price": "$7.25",
+          "description": ""
+        },
+        {
+          "name": "Chicken Salad",
+          "price": "$9.95",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Soups",
+      "items": [
+        {
+          "name": "Chicken Consommé (Lg)",
+          "price": "$7.95",
+          "description": "Includes rice, salad, and corn cake."
+        },
+        {
+          "name": "Chicken Consommé (Sm)",
+          "price": "$3.95",
+          "description": "Chicken soup with corn cake."
+        },
+        {
+          "name": "Soup of the Day",
+          "price": "$4.95",
+          "description": "The daily soup by itself in a 32 oz container."
+        },
+        {
+          "name": "Monday: Ajiaco",
+          "price": "$9.95",
+          "description": "Hearty chicken soup made with potatoes and corn on the cob. Optional cilantro and milk cream."
+        },
+        {
+          "name": "Tuesday: Vegetable Soup",
+          "price": "$9.95",
+          "description": ""
+        },
+        {
+          "name": "Wednesday: Beef Tripe Soup (Mondongo)",
+          "price": "$9.95",
+          "description": ""
+        },
+        {
+          "name": "Thursday: Green Plantain Soup",
+          "price": "$9.95",
+          "description": ""
+        },
+        {
+          "name": "Friday: Fish Stew",
+          "price": "$12.95",
+          "description": ""
+        },
+        {
+          "name": "Saturday: Hen Stew",
+          "price": "$12.95",
+          "description": ""
+        },
+        {
+          "name": "Sunday: Oxtail Stew",
+          "price": "$12.95",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Chicken Specialties",
+      "items": [
+        {
+          "name": "Rotisserie Chicken Platter",
+          "price": "$11.25",
+          "description": "1/4 Chicken, consommé soup, rice, french fries, and salad."
+        },
+        {
+          "name": "Mixed Rice with Chicken",
+          "price": "$10.50",
+          "description": "Includes salad and sweet plantains."
+        },
+        {
+          "name": "Breaded Chicken Cutlet",
+          "price": "$14.25",
+          "description": "Breaded chicken breast. Comes with salad, rice, beans, and French fries."
+        },
+        {
+          "name": "Grilled Chicken Breast",
+          "price": "$14.25",
+          "description": "Comes with salad, yellow rice, and french fries."
+        },
+        {
+          "name": "Whole Rotisserie Chicken",
+          "price": "$9.95",
+          "description": "One full rotisserie chicken."
+        },
+        {
+          "name": "Half Rotisserie Chicken",
+          "price": "$5.95",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Kids Menu",
+      "items": [
+        {
+          "name": "Chicken Fingers",
+          "price": "$8.75",
+          "description": "Also called chicken tenders. Comes with French fries."
+        }
+      ]
+    },
+    {
+      "category": "Seafood",
+      "items": [
+        {
+          "name": "Seafood Combination Casserole",
+          "price": "$23.95",
+          "description": "Includes salad, rice, and French fries."
+        },
+        {
+          "name": "Sauteed Red Snapper",
+          "price": "$27.95",
+          "description": "Includes salad, rice, potato, cassava, and plantains."
+        },
+        {
+          "name": "Fried Red Snapper",
+          "price": "$26.95",
+          "description": "Includes salad, rice, and fried green plantains."
+        },
+        {
+          "name": "Shrimps in Garlic Sauce, Breaded, or Creole Sauce",
+          "price": "$19.95",
+          "description": "Includes salad, white rice, and French fries."
+        },
+        {
+          "name": "Rice with Shrimp",
+          "price": "$17.95",
+          "description": "Includes salad and French fries."
+        },
+        {
+          "name": "Fillet of Flounder (Breaded)",
+          "price": "$13.95",
+          "description": "Includes salad, rice, and French fries."
+        },
+        {
+          "name": "Seafood Chowder",
+          "price": "$26.95",
+          "description": "Includes salad, rice, and French fries."
+        },
+        {
+          "name": "Cream of Shrimp",
+          "price": "$15.95",
+          "description": "Includes salad, rice, and French fries."
+        },
+        {
+          "name": "Sauteed Seafood",
+          "price": "$28.95",
+          "description": "Includes salad, rice, and French fries."
+        },
+        {
+          "name": "Ocean Rice",
+          "price": "$27.50",
+          "description": "Mixed yellow rice with seafood. Includes salad and French fries."
+        },
+        {
+          "name": "Sirloin Steak topped w/Seafood",
+          "price": "$31.95",
+          "description": "Includes salad, rice, and French fries."
+        }
+      ]
+    },
+    {
+      "category": "Typical Dishes",
+      "items": [
+        {
+          "name": "Mario's Special Platter",
+          "price": "$22.50",
+          "description": "Grilled steak, pork loin, pork grind, and 1/4 chicken. Includes French fries, rice, beans, and salad."
+        },
+        {
+          "name": "Aguacatala Special Platter",
+          "price": "$19.50",
+          "description": "Sirloin steak with salad, rice, beans, and guacamole."
+        },
+        {
+          "name": "Grilled Sirloin Steak",
+          "price": "$23.95",
+          "description": "Includes rice, salad, and French fries."
+        },
+        {
+          "name": "Skirt Steak",
+          "price": "$23.95",
+          "description": "Includes salad, grilled potatoes, rice, and beans."
+        },
+        {
+          "name": "Country Platter \"Campesina\"",
+          "price": "$14.95",
+          "description": "Ground beef, pork rind, rice, beans, egg, sweet plantain, avocado, and corn cake."
+        },
+        {
+          "name": "Country Platter \"Tipica\"",
+          "price": "$15.25",
+          "description": "Grilled top round steak, rice, beans, pork rind, egg, avocado, sweet plantain, and corn cake."
+        },
+        {
+          "name": "Top Round Steak",
+          "price": "$13.95",
+          "description": "Topped with onions and served with salad, rice, beans, and sweet plantain."
+        },
+        {
+          "name": "Grilled Top Round Steak with Arepa",
+          "price": "$13.95",
+          "description": "Grilled steak accompanied with a colombian-style arepa topped with melted cheese."
+        },
+        {
+          "name": "Beans with Pork",
+          "price": "$12.95",
+          "description": "Rice, beans, pork rind, sweet plantain, avocado, and corn cake."
+        },
+        {
+          "name": "Breaded Pork Loin",
+          "price": "$14.95",
+          "description": "Includes salad, rice, beans, and sweet plantains."
+        },
+        {
+          "name": "Grilled Porkchops",
+          "price": "$13.25",
+          "description": "Includes salad, rice, beans, and sweet plantain."
+        },
+        {
+          "name": "Mario's Picada",
+          "price": "$24.95",
+          "description": "Chopped short ribs, pork loin, beef, pork rinds, sausage, plantains, and corn cake."
+        }
+      ]
+    },
+    {
+      "category": "Side Orders",
+      "items": [
+        {
+          "name": "Fried Green Plantains",
+          "price": "$4.95",
+          "description": ""
+        },
+        {
+          "name": "Fried Sweet Plantains",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "French Fries",
+          "price": "$3.25",
+          "description": ""
+        },
+        {
+          "name": "Fried Cassavas",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Steamed Cassavas",
+          "price": "$4.95",
+          "description": ""
+        },
+        {
+          "name": "White Rice (Large)",
+          "price": "$4.75",
+          "description": ""
+        },
+        {
+          "name": "White Rice (Small)",
+          "price": "$3.75",
+          "description": ""
+        },
+        {
+          "name": "Yellow Rice (Large)",
+          "price": "$5.50",
+          "description": ""
+        },
+        {
+          "name": "Yellow Rice (Small)",
+          "price": "$4.25",
+          "description": ""
+        },
+        {
+          "name": "Ground Beef (Colombian Style)",
+          "price": "$4.75",
+          "description": ""
+        },
+        {
+          "name": "Pork Rind w/Corn Cake",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Chopped Pork Rinds (For Two People)",
+          "price": "$7.50",
+          "description": ""
+        },
+        {
+          "name": "Sausage",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Colombian Mazamorra (Small)",
+          "price": "$4.25",
+          "description": ""
+        },
+        {
+          "name": "Colombian Mazamorra (Large)",
+          "price": "$5.15",
+          "description": ""
+        },
+        {
+          "name": "Colombian Arepa w/Cheese",
+          "price": "$4.25",
+          "description": "A large, flat, colombian corn cake (arepa) topped with melted cheese."
+        },
+        {
+          "name": "Corncakes (3 Mini Arepas)",
+          "price": "$2.75",
+          "description": ""
+        },
+        {
+          "name": "Beans (Large)",
+          "price": "$4.95",
+          "description": "**Beans may contain pork used to add flavor.**"
+        },
+        {
+          "name": "Beans (Small)",
+          "price": "$2.95",
+          "description": "**Beans may contain pork used to add flavor.**"
+        },
+        {
+          "name": "Avocado Salad",
+          "price": "$7.25",
+          "description": ""
+        },
+        {
+          "name": "Sliced Avocado",
+          "price": "$5.25",
+          "description": ""
+        },
+        {
+          "name": "Boiled Potatos",
+          "price": "$3.50",
+          "description": ""
+        },
+        {
+          "name": "Guacamole",
+          "price": "$5.75",
+          "description": ""
+        },
+        {
+          "name": "Hogao",
+          "price": "$4.50",
+          "description": "A Colombian sauce eaten with meats, arepas, rice, and other dishes."
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        {
+          "name": "Figs w/Cheese & Arequipe",
+          "price": "$6.25",
+          "description": "Colombian-style figs stuffed with Dulce de Leche (Arequipe)."
+        },
+        {
+          "name": "Flan Tres Leches",
+          "price": "$4.25",
+          "description": ""
+        },
+        {
+          "name": "Cheese Cake",
+          "price": "$4.25",
+          "description": ""
+        },
+        {
+          "name": "Rice Pudding",
+          "price": "$3.50",
+          "description": "Sweet rice pudding with optional cinnamon powder on top."
+        },
+        {
+          "name": "Ice Cream (Vanilla or Chocolate)",
+          "price": "$3.25",
+          "description": ""
+        },
+        {
+          "name": "Lava Cake with Ice Cream",
+          "price": "$7.50",
+          "description": "A hot cake with melted chocolate inside and served with vanilla ice cream."
+        }
+      ]
+    },
+    {
+      "category": "Juices",
+      "items": [
+        {
+          "name": "Passion Fruit (Maracuya)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Blackberry (Mora)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Sour Sop (Guanabana)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Guayaba (Guava)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Lulo",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Papaya",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Mango",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Pineapple (Piña)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Strawberry (Fresa)",
+          "price": "$3.95",
+          "description": ""
+        },
+        {
+          "name": "Freshly Squeezed Orange Juice",
+          "price": "$4.75",
+          "description": "Oranges are freshly squeezed right after you order."
+        },
+        {
+          "name": "Home Made Lemonade",
+          "price": "$4.50",
+          "description": "Juice made from blending whole lemons."
+        },
+        {
+          "name": "Pitcher of Lemonade",
+          "price": "$20.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Beverages",
+      "items": [
+        {
+          "name": "Colombiana",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Coca Cola",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Coke Zero",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Diet Coke",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Manzana Postobon",
+          "price": "$1.95",
+          "description": "Apple flavored soda from Colombia."
+        },
+        {
+          "name": "Postobon Uva (Grape Soda)",
+          "price": "$1.75",
+          "description": ""
+        },
+        {
+          "name": "Brisk Iced Tea",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Apple Juice",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Pitcher of Sangria (Large)",
+          "price": "$22.95",
+          "description": ""
+        },
+        {
+          "name": "Pitcher of Sangria (Small)",
+          "price": "$13.50",
+          "description": ""
+        },
+        {
+          "name": "Glass of Sangria",
+          "price": "$6.00",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "category": "Hot Beverages",
+      "items": [
+        {
+          "name": "Colombian Coffee",
+          "price": "$1.75",
+          "description": ""
+        },
+        {
+          "name": "Glass of Milk",
+          "price": "$1.95",
+          "description": ""
+        },
+        {
+          "name": "Black Coffee (Tinto)",
+          "price": "$0.75",
+          "description": ""
+        },
+        {
+          "name": "Cappuccino",
+          "price": "$2.95",
+          "description": ""
+        },
+        {
+          "name": "Espresso",
+          "price": "$2.50",
+          "description": ""
+        },
+        {
+          "name": "Hot Tea",
+          "price": "$1.75",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "downloaded_photos": [
+    {
+      "wix_id": "b761be_31f7039a276349c4bdb05be135da491a~mv2.jpg",
+      "friendly_filename": "orlando_storefront_square_IMG_5538_edited.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_31f7039a276349c4bdb05be135da491a~mv2.jpg",
+      "dimensions": "461x461",
+      "bytes": 62914,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "Orlando location night exterior storefront photo (square crop showing 'POLLOS A LA BRASA MARIO' sign, yellow awnings, and Colombian tricolor neon roof trim)."
+    },
+    {
+      "wix_id": "b761be_b0b59ef3467e48eea3a849c068749d44~mv2.jpg",
+      "friendly_filename": "orlando_storefront_wide_hero_IMG_5538_edited.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_b0b59ef3467e48eea3a849c068749d44~mv2.jpg",
+      "dimensions": "1024x461",
+      "bytes": 136562,
+      "used_on": [
+        "https://www.pollosmario.com/orlando"
+      ],
+      "description": "Orlando location wide panoramic night exterior storefront photo used as the hero banner on /orlando (shows '8850' over red entrance doors, yellow awnings, 'POLLOS A LA BRASA MARIO', and Colombian neon lights)."
+    },
+    {
+      "wix_id": "b761be_84297641311c49da8728f08448d92a0d~mv2.jpg",
+      "friendly_filename": "jackson_heights_81_storefront.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_84297641311c49da8728f08448d92a0d~mv2.jpg",
+      "dimensions": "1024x768",
+      "bytes": 201965,
+      "used_on": [
+        "https://www.pollosmario.com/",
+        "https://www.pollosmario.com/81"
+      ],
+      "description": "Jackson Heights (81-01 Roosevelt Ave) corner building exterior storefront photo at dusk under the elevated 7 train."
+    },
+    {
+      "wix_id": "b761be_b4bae2cc8d10415a88d364d0ae37da50~mv2.jpg",
+      "friendly_filename": "brentwood_storefront_o.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_b4bae2cc8d10415a88d364d0ae37da50~mv2.jpg",
+      "dimensions": "1000x750",
+      "bytes": 81364,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "Brentwood (78 Wicks Rd) night exterior storefront photo showing red neon 'Pollos Mario Steak House' sign and rooster mascot above the red entrance doors."
+    },
+    {
+      "wix_id": "b761be_782ec12eff204c279a742773dc03ad11~mv2.jpg",
+      "friendly_filename": "hempstead_storefront_local2-2.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_782ec12eff204c279a742773dc03ad11~mv2.jpg",
+      "dimensions": "2000x1200",
+      "bytes": 902810,
+      "used_on": [
+        "https://www.pollosmario.com/",
+        "https://pollosmariorestaurant.com/about-us/",
+        "https://pollosmariorestaurant.com/contact/"
+      ],
+      "description": "Hempstead (75 N Franklin St) high-res daytime exterior building photo with white stone facade and terracotta tile roof."
+    },
+    {
+      "wix_id": "b761be_271286ec119c4abb8847be1d1c3a3ad9~mv2.jpg",
+      "friendly_filename": "woodhaven_storefront_801_10944265.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_271286ec119c4abb8847be1d1c3a3ad9~mv2.jpg",
+      "dimensions": "1200x900",
+      "bytes": 204653,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "Woodhaven / Rego Park (63-20 Woodhaven Blvd) daytime exterior storefront photo showing yellow sign 'POLLOS A LA BRASA MARIO - EL PALACIO DE LOS FRISOLES'."
+    },
+    {
+      "wix_id": "bb5967be28cc4bcfbdb91b75efb8ec98.jpg",
+      "friendly_filename": "home_section_bg_wood_texture.jpg",
+      "original_url": "https://static.wixstatic.com/media/bb5967be28cc4bcfbdb91b75efb8ec98.jpg",
+      "dimensions": "5183x2444",
+      "bytes": 9340353,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "High-resolution dark wood planks background texture used behind the location cards on the home page."
+    },
+    {
+      "wix_id": "b761be_f595e700872f4d9e9479bfd0e207d924~mv2.png",
+      "friendly_filename": "icon_chownow.png",
+      "original_url": "https://static.wixstatic.com/media/b761be_f595e700872f4d9e9479bfd0e207d924~mv2.png",
+      "dimensions": "2143x817",
+      "bytes": 47076,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "ChowNow 'Order Now' red button badge used for Orlando online ordering."
+    },
+    {
+      "wix_id": "b761be_70d03df0dffe43a786802e1f1f1f4588~mv2.png",
+      "friendly_filename": "icon_grubhub.png",
+      "original_url": "https://static.wixstatic.com/media/b761be_70d03df0dffe43a786802e1f1f1f4588~mv2.png",
+      "dimensions": "399x201",
+      "bytes": 4282,
+      "used_on": [
+        "https://www.pollosmario.com/",
+        "https://www.pollosmario.com/81",
+        "https://www.pollosmario.com/81menu"
+      ],
+      "description": "Grubhub button badge."
+    },
+    {
+      "wix_id": "b761be_bc961f1bd2ac47b897f7edcfea21826d~mv2.png",
+      "friendly_filename": "icon_ubereats.png",
+      "original_url": "https://static.wixstatic.com/media/b761be_bc961f1bd2ac47b897f7edcfea21826d~mv2.png",
+      "dimensions": "399x201",
+      "bytes": 3382,
+      "used_on": [
+        "https://www.pollosmario.com/",
+        "https://www.pollosmario.com/81",
+        "https://www.pollosmario.com/81menu"
+      ],
+      "description": "UberEats button badge."
+    },
+    {
+      "wix_id": "b761be_44dd4fbcd03845fe8093e0f3efea50fd~mv2.jpg",
+      "friendly_filename": "icon_seamless.jpg",
+      "original_url": "https://static.wixstatic.com/media/b761be_44dd4fbcd03845fe8093e0f3efea50fd~mv2.jpg",
+      "dimensions": "1200x630",
+      "bytes": 64480,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "Seamless logo badge."
+    },
+    {
+      "wix_id": "b761be_860f91c03be749eaa42262017b67419f~mv2.png",
+      "friendly_filename": "icon_postmates.png",
+      "original_url": "https://static.wixstatic.com/media/b761be_860f91c03be749eaa42262017b67419f~mv2.png",
+      "dimensions": "399x201",
+      "bytes": 3699,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "Postmates button badge."
+    },
+    {
+      "wix_id": "b761be_a664147f40a84d2ca7a977b372d12c8c~mv2.png",
+      "friendly_filename": "icon_doordash.png",
+      "original_url": "https://static.wixstatic.com/media/b761be_a664147f40a84d2ca7a977b372d12c8c~mv2.png",
+      "dimensions": "399x201",
+      "bytes": 6863,
+      "used_on": [
+        "https://www.pollosmario.com/"
+      ],
+      "description": "DoorDash button badge."
+    },
+    {
+      "wix_id": "menus_side_image.7077f229.jpeg",
+      "friendly_filename": "menus_side_image.7077f229.jpeg",
+      "original_url": "https://static.parastorage.com/services/restaurant-menus-showcase-ooi/bbb177bb270c1b6afb0b0b73282cd220671b3433c841e4e3a7d26be9/media/menus_side_image.7077f229.jpeg",
+      "dimensions": "3009x3009",
+      "bytes": 835921,
+      "used_on": [
+        "https://www.pollosmario.com/menus"
+      ],
+      "description": "Wix Restaurants Menus default decorative side image."
+    },
+    {
+      "wix_id": null,
+      "friendly_filename": "hempstead_logo_pollos_mario.jpg",
+      "original_url": "https://pollosmariorestaurant.com/wp-content/uploads/2019/12/Untitled-2.jpg",
+      "dimensions": "1190x249",
+      "bytes": 76650,
+      "used_on": [
+        "https://pollosmariorestaurant.com/"
+      ],
+      "description": "Official Pollos Mario logo with iconic Colombian rooster mascot in sombrero/poncho giving thumbs up + 'POLLOS MARIO Steak House & Seafood' wordmark (plus 24 additional high-res food/hero/gallery photos saved in original_photos/hempstead_site/)."
+    }
+  ]
+}

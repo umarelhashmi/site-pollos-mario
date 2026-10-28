@@ -1,0 +1,1738 @@
+/* ==========================================================================
+   POLLOS MARIO — COLOMBIAN ROTISSERIE, STEAK & SEAFOOD (5-STATE UNIFIED SITE)
+   Original "Asadero Comanda & Angled Platter Triptych" Design System
+   ========================================================================== */
+
+:root {
+  /* Core Palette (Rooted in the Pollos Mario Sign & Colombian Asadero) */
+  --brasas-obsidian: #15100d;
+  --brasas-charcoal: #221914;
+  --arepa-maiz: #f5ecc6;
+  --arepa-paper: #fbf6e2;
+  --arepa-border: #decb8f;
+  --mario-rojo: #d93f32;
+  --mario-rojo-dark: #ab291e;
+  --selva-esmeralda: #175c38;
+  --selva-light: #e5f3eb;
+  --saffron-gold: #e8a317;
+  --tinto-ink: #201610;
+  --tinto-muted: #5e4b3e;
+
+  /* Typography */
+  --font-display: 'Changa One', 'Fraunces', Georgia, serif;
+  --font-serif-accent: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Dimensions */
+  --header-h: 68px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+  background-color: var(--arepa-maiz);
+  color: var(--tinto-ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--arepa-maiz);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(217, 63, 50, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 88% 75%, rgba(23, 92, 56, 0.05) 0%, transparent 45%);
+  color: var(--tinto-ink);
+  line-height: 1.42;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+/* ==========================================================================
+   1. TOP SIGNBOARD HEADER (LOGO + 5 LOCATION LINKS + ACTIVE PHONE/ORDER)
+   ========================================================================== */
+
+.top-signboard {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--header-h);
+  background: var(--brasas-obsidian);
+  border-bottom: 3px solid var(--mario-rojo);
+  box-shadow: 0 6px 20px rgba(15, 10, 7, 0.38);
+}
+
+.signboard-inner {
+  max-width: 1560px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.brand-emblem {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.brand-emblem:hover {
+  transform: scale(1.03);
+}
+
+.brand-logo-img {
+  height: 54px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+}
+
+/* 5-Location Menu Bar */
+.location-menubar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 4px 2px;
+}
+
+.location-menubar::-webkit-scrollbar {
+  display: none;
+}
+
+.loc-tab {
+  appearance: none;
+  border: 1.5px solid rgba(245, 236, 198, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--arepa-paper);
+  padding: 6px 13px;
+  /* Asymmetric ticket notch shape */
+  border-radius: 12px 4px 12px 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  white-space: nowrap;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+}
+
+.loc-tab:hover {
+  background: rgba(245, 236, 198, 0.14);
+  border-color: var(--arepa-maiz);
+}
+
+.loc-tab.is-active {
+  background: var(--arepa-maiz);
+  color: var(--brasas-obsidian);
+  border-color: var(--mario-rojo);
+  box-shadow: 0 0 0 2px var(--mario-rojo);
+}
+
+.loc-tab-city {
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.loc-tab-sub {
+  font-size: 0.67rem;
+  font-weight: 600;
+  opacity: 0.78;
+  line-height: 1.1;
+  margin-top: 2px;
+}
+
+.loc-tab.is-active .loc-tab-sub {
+  color: var(--mario-rojo-dark);
+  opacity: 1;
+}
+
+.signboard-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.header-phone-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(245, 236, 198, 0.1);
+  border: 1px solid rgba(245, 236, 198, 0.25);
+  color: var(--arepa-maiz);
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.header-phone-pill:hover {
+  background: rgba(245, 236, 198, 0.2);
+}
+
+.header-order-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 15px;
+  border-radius: 10px 3px 10px 3px;
+  background: var(--mario-rojo);
+  color: #fff;
+  font-size: 0.83rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  box-shadow: 0 3px 10px rgba(217, 63, 50, 0.4);
+  transition: background 0.15s ease, transform 0.12s ease;
+}
+
+.header-order-cta:hover {
+  background: #ef4b3d;
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   2. FIRST VIEW: TRIPLE-SPLIT OF 3 UP-CLOSE DISHES & DRINK (100dvh LOCK)
+   ========================================================================== */
+
+.hero-stage {
+  position: relative;
+  width: 100%;
+  height: calc(100dvh - var(--header-h));
+  min-height: 520px;
+  max-height: 980px;
+  background: var(--brasas-obsidian);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-bottom: 4px solid var(--mario-rojo);
+}
+
+/* Compact Top Bar Above the 3 Split Photos — Never Blocks the Food */
+.hero-top-hud {
+  position: relative;
+  z-index: 10;
+  background: linear-gradient(90deg, #1b130f 0%, #271b15 50%, #1b130f 100%);
+  border-bottom: 1px solid rgba(245, 236, 198, 0.18);
+  padding: 7px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-store-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: var(--arepa-paper);
+  font-size: 0.83rem;
+}
+
+.store-live-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #2ecc71;
+  box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.25);
+  flex-shrink: 0;
+}
+
+.hero-store-banner strong {
+  color: var(--arepa-maiz);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.hud-sep {
+  opacity: 0.45;
+}
+
+.hud-phone {
+  color: #ffd166;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hero-order-strip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.hero-platform-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--arepa-maiz);
+  color: var(--brasas-obsidian);
+  font-size: 0.74rem;
+  font-weight: 800;
+  border: 1px solid var(--mario-rojo);
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.hero-platform-pill:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+.hero-platform-pill img {
+  height: 16px;
+  width: auto;
+  max-width: 56px;
+  object-fit: contain;
+  display: block;
+}
+
+/* The 3-Split Macro Food Canvas */
+.hero-triptych {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1.08fr 1fr 1.04fr;
+  gap: 4px;
+  background: var(--mario-rojo);
+}
+
+.triptych-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--brasas-obsidian);
+}
+
+.triptych-panel picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.triptych-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 48%;
+  display: block;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.triptych-panel:hover .triptych-img {
+  transform: scale(1.035);
+}
+
+/* Subtle bottom gradient so the corner ticket is crisp while 85%+ of the photo is completely unobstructed */
+.triptych-panel::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 36%;
+  background: linear-gradient(to top, rgba(14, 9, 6, 0.88) 0%, rgba(14, 9, 6, 0.38) 55%, transparent 100%);
+  pointer-events: none;
+}
+
+/* Compact Asadero Dish Ticket Tag at the Bottom Edge of Each Photo */
+.dish-ticket-overlay {
+  position: absolute;
+  z-index: 4;
+  left: 14px;
+  right: 14px;
+  bottom: 12px;
+  background: rgba(21, 16, 13, 0.82);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1.5px solid rgba(245, 236, 198, 0.35);
+  border-left: 5px solid var(--mario-rojo);
+  border-radius: 12px 4px 12px 4px;
+  padding: 9px 13px;
+  color: var(--arepa-paper);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.ticket-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.ticket-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #ffd166;
+  background: rgba(232, 163, 23, 0.18);
+  padding: 1px 7px;
+  border-radius: 4px;
+}
+
+.ticket-price {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: #fff;
+  background: var(--selva-esmeralda);
+  padding: 2px 9px;
+  border-radius: 6px;
+}
+
+.ticket-dish-name {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(1.15rem, 1.65vw, 1.48rem);
+  color: var(--arepa-maiz);
+  line-height: 1.08;
+  letter-spacing: 0.01em;
+}
+
+.ticket-dish-ingredients {
+  font-size: 0.74rem;
+  color: rgba(251, 246, 226, 0.86);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Bottom Quick-Jump Strip Inside First Screen */
+.hero-bottom-bar {
+  position: relative;
+  z-index: 10;
+  background: var(--brasas-obsidian);
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jump-menu-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--arepa-maiz);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 3px 14px;
+  border-radius: 999px;
+  background: rgba(245, 236, 198, 0.1);
+  border: 1px solid rgba(245, 236, 198, 0.25);
+  transition: background 0.15s ease;
+}
+
+.jump-menu-btn:hover {
+  background: rgba(245, 236, 198, 0.2);
+}
+
+.jump-menu-btn strong {
+  color: #ffd166;
+}
+
+/* ==========================================================================
+   3. ASYMMETRIC COLOMBIAN ASADERO "COMANDA" WORKBENCH (SIDEBAR + 2-COL MENU)
+   ========================================================================== */
+
+.asadero-workbench {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 20px 16px 32px;
+  display: grid;
+  grid-template-columns: 330px minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+/* LEFT STICKY RAIL */
+.comanda-sidebar {
+  position: sticky;
+  top: calc(var(--header-h) + 14px);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: calc(100dvh - var(--header-h) - 24px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding-right: 2px;
+}
+
+/* Active Store Passport Card */
+.store-passport-card {
+  background: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 18px 4px 18px 4px;
+  padding: 14px;
+  box-shadow: 5px 5px 0 var(--tinto-ink);
+}
+
+.passport-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1.5px dashed var(--arepa-border);
+}
+
+/* Strict thumbnail sizing so storefront photo NEVER forces scrolling */
+.passport-thumb {
+  width: 68px;
+  height: 68px;
+  max-height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid var(--mario-rojo);
+  flex-shrink: 0;
+  background: var(--brasas-charcoal);
+}
+
+.passport-code {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  background: var(--mario-rojo);
+  color: #fff;
+  padding: 1px 7px;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+.passport-name {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.1;
+  color: var(--tinto-ink);
+}
+
+.passport-tagline {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--tinto-muted);
+  margin-top: 3px;
+}
+
+.passport-contact-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 8px;
+  margin-top: 11px;
+}
+
+.contact-stamp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border-radius: 10px 3px 10px 3px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  border: 1.5px solid var(--tinto-ink);
+  transition: transform 0.12s ease;
+}
+
+.contact-stamp-btn:hover {
+  transform: translateY(-1px);
+}
+
+.contact-stamp-btn.is-phone {
+  background: var(--selva-esmeralda);
+  color: #fff;
+}
+
+.contact-stamp-btn.is-map {
+  background: var(--arepa-maiz);
+  color: var(--tinto-ink);
+}
+
+.block-micro-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--tinto-muted);
+  margin-bottom: 6px;
+}
+
+.passport-order-block,
+.passport-hours-block,
+.passport-socials-block {
+  margin-top: 11px;
+  padding-top: 10px;
+  border-top: 1px solid var(--arepa-border);
+}
+
+.order-platform-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.order-platform-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 11px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1.5px solid var(--tinto-ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--tinto-ink);
+  transition: background 0.12s ease, transform 0.12s ease;
+}
+
+.order-platform-chip.is-primary {
+  background: var(--mario-rojo);
+  color: #fff;
+  border-color: var(--tinto-ink);
+}
+
+.order-platform-chip:hover {
+  transform: translateY(-1px);
+}
+
+.order-platform-chip img {
+  height: 20px;
+  width: auto;
+  max-width: 64px;
+  object-fit: contain;
+  background: #fff;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+.hours-compact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.76rem;
+}
+
+.hours-compact-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.hours-compact-list .h-days {
+  font-weight: 700;
+  color: var(--tinto-ink);
+}
+
+.hours-compact-list .h-time {
+  font-weight: 600;
+  color: var(--selva-esmeralda);
+}
+
+.social-pills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.social-pill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--brasas-obsidian);
+  color: var(--arepa-maiz);
+  font-size: 0.73rem;
+  font-weight: 700;
+}
+
+.social-pill-link:hover {
+  background: var(--mario-rojo);
+  color: #fff;
+}
+
+/* 7-Day Colombian "Sopa del Día / Sancocho" Rotary Card */
+.sancocho-wheel-card {
+  background: var(--brasas-obsidian);
+  color: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 4px 18px 4px 18px;
+  padding: 12px 14px;
+  box-shadow: 5px 5px 0 var(--mario-rojo);
+}
+
+.sancocho-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sancocho-badge {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.98rem;
+  color: #ffd166;
+}
+
+.sancocho-sub {
+  font-size: 0.7rem;
+  color: rgba(245, 236, 198, 0.7);
+  font-weight: 600;
+}
+
+.sancocho-day-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.sancocho-day-btn {
+  appearance: none;
+  border: 1px solid rgba(245, 236, 198, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--arepa-paper);
+  padding: 3px 7px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sancocho-day-btn.is-active {
+  background: var(--mario-rojo);
+  color: #fff;
+  border-color: #ffd166;
+}
+
+.sancocho-active-display {
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 3px solid #ffd166;
+  padding: 7px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.sancocho-dish-title {
+  font-size: 0.79rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sancocho-dish-price {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #ffd166;
+  white-space: nowrap;
+}
+
+/* Category Index Rail */
+.category-index-card {
+  background: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.category-pill-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cat-nav-btn {
+  appearance: none;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--tinto-ink);
+  padding: 6px 9px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.cat-nav-btn:hover {
+  background: var(--arepa-maiz);
+}
+
+.cat-nav-btn.is-active {
+  background: var(--tinto-ink);
+  color: var(--arepa-maiz);
+}
+
+.cat-count-pill {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.cat-nav-btn.is-active .cat-count-pill {
+  background: var(--mario-rojo);
+  color: #fff;
+}
+
+/* ==========================================================================
+   4. RIGHT MAIN MENU STAGE ("TABLÓN DE LA CARTA")
+   ========================================================================== */
+
+.comanda-menu-stage {
+  min-width: 0;
+}
+
+.menu-control-bar {
+  position: sticky;
+  top: calc(var(--header-h) + 8px);
+  z-index: 30;
+  background: var(--brasas-obsidian);
+  color: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 14px 4px 14px 4px;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 20px rgba(21, 16, 13, 0.22);
+  margin-bottom: 14px;
+}
+
+.menu-control-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.menu-control-title h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.38rem;
+  color: var(--arepa-maiz);
+}
+
+.menu-source-pill {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #ffd166;
+  background: rgba(255, 209, 102, 0.14);
+  padding: 2px 9px;
+  border-radius: 999px;
+}
+
+.menu-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--arepa-paper);
+  color: var(--tinto-ink);
+  border-radius: 8px;
+  padding: 6px 11px;
+  min-width: 260px;
+  flex: 1;
+  max-width: 380px;
+  border: 1.5px solid var(--arepa-border);
+}
+
+.menu-search-box svg {
+  color: var(--tinto-muted);
+  flex-shrink: 0;
+  margin-right: 7px;
+}
+
+.menu-search-box input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--tinto-ink);
+  outline: none;
+}
+
+.clear-search-btn {
+  border: none;
+  background: var(--mario-rojo);
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+/* 5-Locations Quick Directory Strip Above Menu */
+.five-stores-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.mini-store-card {
+  background: var(--arepa-paper);
+  border: 1.5px solid var(--tinto-ink);
+  border-radius: 12px 3px 12px 3px;
+  padding: 9px 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.mini-store-card:hover {
+  transform: translateY(-2px);
+  background: #fff;
+}
+
+.mini-store-card.is-active {
+  background: var(--tinto-ink);
+  color: var(--arepa-maiz);
+  border-color: var(--mario-rojo);
+  box-shadow: 3px 3px 0 var(--mario-rojo);
+}
+
+.mini-store-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.mini-store-city {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.mini-store-code {
+  font-size: 0.64rem;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: rgba(217, 63, 50, 0.15);
+  color: var(--mario-rojo);
+}
+
+.mini-store-card.is-active .mini-store-code {
+  background: var(--mario-rojo);
+  color: #fff;
+}
+
+.mini-store-addr {
+  font-size: 0.69rem;
+  opacity: 0.82;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mini-store-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding-top: 4px;
+  border-top: 1px dashed rgba(128, 128, 128, 0.3);
+}
+
+.mini-store-phone {
+  color: var(--selva-esmeralda);
+}
+
+.mini-store-card.is-active .mini-store-phone {
+  color: #ffd166;
+}
+
+.mini-store-order-tag {
+  color: var(--mario-rojo);
+}
+
+.mini-store-card.is-active .mini-store-order-tag {
+  color: #fff;
+}
+
+/* Menu Category Blocks & 2-Column Dish Ticket Grid */
+.menu-categories-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.menu-category-block {
+  background: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 16px 4px 16px 4px;
+  padding: 16px;
+  box-shadow: 4px 4px 0 rgba(32, 22, 16, 0.9);
+}
+
+.category-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid var(--tinto-ink);
+}
+
+.category-block-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.28rem;
+  color: var(--tinto-ink);
+}
+
+.category-block-badge {
+  font-size: 0.73rem;
+  font-weight: 800;
+  background: var(--mario-rojo);
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 999px;
+}
+
+/* Asymmetric 2-Column Dish Ticket Ledger */
+.dish-ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.dish-item-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1.5px solid var(--arepa-border);
+  border-left: 4px solid var(--selva-esmeralda);
+  border-radius: 10px 3px 10px 3px;
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+
+.dish-item-ticket:hover {
+  border-color: var(--tinto-ink);
+  border-left-color: var(--mario-rojo);
+  transform: translateY(-1px);
+}
+
+/* Strict compact thumbnail rule: 60x60px max so no menu photo ever blocks scroll */
+.dish-thumb-btn {
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: zoom-in;
+  flex-shrink: 0;
+}
+
+.dish-thumb {
+  width: 60px;
+  height: 60px;
+  max-height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1.5px solid var(--tinto-ink);
+  display: block;
+  background: var(--arepa-maiz);
+}
+
+.dish-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.dish-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dish-name {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--tinto-ink);
+  line-height: 1.22;
+}
+
+.dish-price-tag {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: var(--selva-esmeralda);
+  background: var(--selva-light);
+  padding: 2px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.dish-desc {
+  font-size: 0.74rem;
+  color: var(--tinto-muted);
+  margin-top: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   5. COMPACT HORIZONTAL ORIGINAL PHOTO REEL (MAX HEIGHT 120PX — NEVER TALL)
+   ========================================================================== */
+
+.original-reel-section {
+  max-width: 1560px;
+  margin: 0 auto 28px;
+  padding: 0 16px;
+}
+
+.section-compact-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.section-compact-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--tinto-ink);
+}
+
+.section-compact-sub {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--tinto-muted);
+}
+
+.reel-scroll-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.reel-arrow {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1.5px solid var(--tinto-ink);
+  background: var(--arepa-paper);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.reel-arrow:hover {
+  background: var(--mario-rojo);
+  color: #fff;
+}
+
+.original-photo-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 8px 4px 12px;
+  scrollbar-width: thin;
+}
+
+.reel-card {
+  flex: 0 0 auto;
+  width: 175px;
+  background: var(--brasas-obsidian);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 12px 3px 12px 3px;
+  overflow: hidden;
+  cursor: zoom-in;
+  transition: transform 0.12s ease;
+}
+
+.reel-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Strictly capped at 104px height so user NEVER has to scroll vertically past a photo */
+.reel-card img {
+  width: 100%;
+  height: 104px;
+  max-height: 104px;
+  object-fit: cover;
+  display: block;
+}
+
+.reel-card-caption {
+  padding: 5px 8px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--arepa-maiz);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ==========================================================================
+   6. GOOGLE MAPS REVIEWS & ABOUT ATTRIBUTES (4.5★ · 7,161 REVIEWS)
+   ========================================================================== */
+
+.reviews-about-section {
+  max-width: 1560px;
+  margin: 0 auto 32px;
+  padding: 0 16px;
+}
+
+.reviews-header-strip {
+  background: var(--brasas-obsidian);
+  color: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 14px 4px 14px 4px;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.gmaps-score-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.score-num {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  color: #ffd166;
+}
+
+.score-stars {
+  color: #ffd166;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.score-count {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--arepa-maiz);
+}
+
+.gmaps-verify-link {
+  padding: 7px 13px;
+  border-radius: 8px;
+  background: var(--mario-rojo);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.reviews-ticket-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.review-ticket {
+  background: var(--arepa-paper);
+  border: 1.5px solid var(--tinto-ink);
+  border-top: 4px solid var(--mario-rojo);
+  border-radius: 12px 3px 12px 3px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.review-author {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--tinto-ink);
+}
+
+.review-stars {
+  color: #d98200;
+  font-size: 0.76rem;
+}
+
+.review-dish-pill {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: var(--selva-esmeralda);
+  background: var(--selva-light);
+  padding: 2px 7px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.review-quote {
+  font-size: 0.76rem;
+  color: var(--tinto-ink);
+  line-height: 1.38;
+}
+
+/* Google Maps About Tab Attributes Board */
+.about-attributes-board {
+  background: var(--arepa-paper);
+  border: 2px solid var(--tinto-ink);
+  border-radius: 14px;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.about-group-box {
+  background: #fff;
+  border: 1px solid var(--arepa-border);
+  border-radius: 8px;
+  padding: 9px 11px;
+}
+
+.about-group-title {
+  font-size: 0.73rem;
+  font-weight: 800;
+  color: var(--mario-rojo);
+  margin-bottom: 5px;
+}
+
+.about-chips-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.about-chip {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--tinto-ink);
+  background: var(--arepa-maiz);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   7. FOOTER: ALL 5 LOCATIONS DIRECTORY
+   ========================================================================== */
+
+.site-footer {
+  background: var(--brasas-obsidian);
+  color: var(--arepa-paper);
+  border-top: 4px solid var(--mario-rojo);
+  padding: 26px 16px 36px;
+}
+
+.footer-inner {
+  max-width: 1560px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.footer-logo {
+  height: 68px;
+  max-height: 68px;
+  width: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  font-size: 0.74rem;
+  color: rgba(245, 236, 198, 0.75);
+}
+
+.footer-locations-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.footer-loc-col {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(245, 236, 198, 0.16);
+  border-radius: 10px;
+  padding: 11px;
+  font-size: 0.74rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-loc-col h3 {
+  font-size: 0.84rem;
+  font-weight: 800;
+  color: #ffd166;
+}
+
+.footer-loc-phone {
+  font-weight: 800;
+  color: #fff;
+}
+
+.footer-loc-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.footer-mini-badge {
+  font-size: 0.66rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(245, 236, 198, 0.14);
+  color: var(--arepa-maiz);
+}
+
+.footer-mini-badge:hover {
+  background: var(--mario-rojo);
+  color: #fff;
+}
+
+/* ==========================================================================
+   8. LIGHTBOX DIALOG
+   ========================================================================== */
+
+.photo-lightbox {
+  margin: auto;
+  border: 3px solid var(--arepa-maiz);
+  border-radius: 16px;
+  background: var(--brasas-obsidian);
+  color: var(--arepa-paper);
+  padding: 14px;
+  max-width: min(92vw, 680px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.75);
+}
+
+.photo-lightbox::backdrop {
+  background: rgba(12, 8, 6, 0.82);
+  backdrop-filter: blur(4px);
+}
+
+.lightbox-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: var(--mario-rojo);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.lightbox-img {
+  max-width: 100%;
+  max-height: 70dvh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.lightbox-caption {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--arepa-maiz);
+  text-align: center;
+}
+
+/* ==========================================================================
+   9. NATIVE MOBILE & TABLET RESPONSIVE LAYOUT
+   Strictly enforces:
+   - First landing screen = ONLY 1 of the 3 super good-looking hero photos
+   - Every image outside the first screen is compact (<= 88px height)
+   ========================================================================== */
+
+@media (max-width: 1180px) {
+  .asadero-workbench {
+    grid-template-columns: 290px minmax(0, 1fr);
+  }
+  .five-stores-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .reviews-ticket-grid,
+  .about-attributes-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+  .footer-locations-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .asadero-workbench {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 14px 12px 24px;
+  }
+  .comanda-sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .category-pill-rail {
+    flex-direction: row;
+    overflow-x: auto;
+    max-width: 100%;
+    padding-bottom: 4px;
+  }
+  .cat-nav-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+    background: var(--arepa-maiz);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-h: 92px;
+  }
+
+  .top-signboard {
+    height: auto;
+    padding: 5px 0;
+  }
+
+  .signboard-inner {
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 5px;
+    max-width: 100vw;
+  }
+
+  .brand-logo-img {
+    height: 36px;
+  }
+
+  .signboard-actions {
+    margin-left: auto;
+    gap: 5px;
+  }
+
+  .header-phone-pill {
+    padding: 5px 8px;
+    font-size: 0.71rem;
+  }
+
+  .header-order-cta {
+    padding: 5px 9px;
+    font-size: 0.72rem;
+  }
+
+  .location-menubar {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    padding: 2px 0;
+    gap: 5px;
+  }
+
+  .loc-tab {
+    padding: 5px 9px;
+  }
+
+  .loc-tab-city {
+    font-size: 0.74rem;
+  }
+
+  .loc-tab-sub {
+    display: none;
+  }
+
+  /* MOBILE HERO RULE: Show ONLY ONE of the 3 split photos on the first landing screen */
+  .hero-stage {
+    height: calc(100dvh - var(--header-h));
+    min-height: 440px;
+    max-height: 760px;
+    max-width: 100vw;
+  }
+
+  .hero-top-hud {
+    padding: 6px 10px;
+    gap: 5px;
+  }
+
+  .hero-store-banner {
+    font-size: 0.72rem;
+    gap: 4px;
+  }
+
+  .hero-triptych {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .triptych-panel.panel-secondary,
+  .triptych-panel.panel-tertiary {
+    display: none !important;
+  }
+
+  .dish-ticket-overlay {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 8px 11px;
+  }
+
+  .ticket-dish-ingredients {
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  .hero-bottom-bar {
+    padding: 5px 10px;
+  }
+
+  .jump-menu-btn {
+    font-size: 0.74rem;
+    padding: 4px 11px;
+    max-width: 100%;
+  }
+
+  /* Below the fold mobile layout: compact thumbnails, zero oversized images */
+  .store-passport-card,
+  .sancocho-wheel-card,
+  .category-index-card,
+  .menu-category-block {
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .passport-thumb {
+    width: 56px;
+    height: 56px;
+    max-height: 56px;
+  }
+
+  .five-stores-strip {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    gap: 8px;
+    padding-bottom: 4px;
+  }
+
+  .mini-store-card {
+    flex: 0 0 185px;
+  }
+
+  .menu-control-bar {
+    position: static;
+    padding: 10px 12px;
+    max-width: 100%;
+  }
+
+  .menu-search-box {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .dish-ticket-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .dish-thumb {
+    width: 52px;
+    height: 52px;
+    max-height: 52px;
+  }
+
+  .reel-card {
+    width: 145px;
+  }
+
+  .reel-card img {
+    height: 84px;
+    max-height: 84px;
+  }
+
+  .reviews-ticket-grid,
+  .about-attributes-board,
+  .footer-locations-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
